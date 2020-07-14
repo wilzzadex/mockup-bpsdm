@@ -557,7 +557,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-slide dark" style="background-image: url('gambar/slide2.JPG');">
+					<div class="swiper-slide dark" style="background-image: url('gambar/slide2.jpg');">
 						<div class="container clearfix">
 							<div class="slider-caption text-white">
 							<h2 data-animate="fadeInUp" class="text-white"> Taruna</h2>
