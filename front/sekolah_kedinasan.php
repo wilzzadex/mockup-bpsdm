@@ -25,10 +25,38 @@
 					============================================= -->
 					<ul class="portfolio-filter clearfix" data-container="#portfolio">
 
-						<li class="activeFilter"><a href="#" data-filter="*">Semua</a></li>
-						<li><a href="#" data-filter=".pf-darat">Darat</a></li>
-						<li><a href="#" data-filter=".pf-udara">Udara</a></li>
-						<li><a href="#" data-filter=".pf-laut">Laut</a></li>
+					<?php 
+						if(isset($_GET['matra'])){
+							$matra = $_GET['matra'];
+							if($matra=='darat'){ ?>
+							<li ><a href="#" data-filter="*">Semua</a></li>
+							<li class="activeFilter"><a href="#" data-filter=".pf-darat">Darat</a></li>
+							<li><a href="#" data-filter=".pf-udara">Udara</a></li>
+							<li><a href="#" data-filter=".pf-laut">Laut</a></li>
+					<?php
+							}elseif($matra=='laut'){ ?>
+							<li ><a href="#" data-filter="*">Semua</a></li>
+							<li><a href="#" data-filter=".pf-darat">Darat</a></li>
+							<li><a href="#" data-filter=".pf-udara">Udara</a></li>
+							<li class="activeFilter"><a href="#" data-filter=".pf-laut">Laut</a></li>
+
+					<?php
+							}elseif($matra=='udara'){ ?>
+							<li ><a href="#" data-filter="*">Semua</a></li>
+							<li><a href="#" data-filter=".pf-darat">Darat</a></li>
+							<li class="activeFilter"><a href="#" data-filter=".pf-udara">Udara</a></li>
+							<li ><a href="#" data-filter=".pf-laut">Laut</a></li>
+					<?php
+							}
+						}else{ ?>
+							<li class="activeFilter"><a href="#" data-filter="*">Semua</a></li>
+							<li><a href="#" data-filter=".pf-darat">Darat</a></li>
+							<li><a href="#" data-filter=".pf-udara">Udara</a></li>
+							<li><a href="#" data-filter=".pf-laut">Laut</a></li>
+					<?php	}
+					?>
+
+						
 
 					</ul><!-- #portfolio-filter end -->
 

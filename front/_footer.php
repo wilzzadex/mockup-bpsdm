@@ -1,116 +1,145 @@
+<!-- MODAL EVENT -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-body">
+			<div class="modal-content">
+				<div class="modal-header" style="margin: 0px !important;">
+					<h4 class="modal-title" id="myModalLabel">Detail Kegiatan</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<ul style="list-style-type: none;">
+						<li><a href="detail_event.php">UKP PRA PRALA TARUNA DIKLAT PEMBENTUKAN III</a></li>
+						<li>12.00 - 15.00</li>
+						<hr>
+						<li><a href="detail_event.php">UKP PRA PRALA TARUNA DIKLAT PEMBENTUKAN III</a></li>
+						<li>12.00 - 15.00</li>
+					</ul>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-xs btn-secondary " data-dismiss="modal">Close</button>
+					<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <!-- Footer
 		============================================= -->
 		<footer id="footer" class="dark">
 
-<div class="container">
+			<div class="container">
 
-	<!-- Footer Widgets
-============================================= -->
-	<div class="footer-widgets-wrap clearfix">
+				<!-- Footer Widgets
+	============================================= -->
+				<div class="footer-widgets-wrap clearfix">
 
-		<div class="col_full">
-			<div class="row">
-				<div class="col-md-3">
-					<div class="widget clearfix">
-						<h4 class="ftitle">Kontak</h4>
-						<div class="clearfix"
-							style="padding: 10px 0; background: url('images/world-map.png') no-repeat center center;">
+					<div class="col_full">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="widget clearfix">
+									<h4 class="ftitle">Kontak</h4>
+									<div class="clearfix"
+										style="padding: 10px 0; background: url('images/world-map.png') no-repeat center center;">
 
-							<i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Medan merdeka Timur No.
-							5, Jakarta <br>
-							<i class="fa fa-phone" aria-hidden="true"></i> (021) 3847519 <br>
-							<i class="fa fa-envelope" aria-hidden="true"></i> humasti-bpsdmp@dephub.go.id
-
-
+										<i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Medan merdeka Timur No.
+										5, Jakarta <br>
+										<i class="fa fa-phone" aria-hidden="true"></i> (021) 3847519 <br>
+										<i class="fa fa-envelope" aria-hidden="true"></i> humasti-bpsdmp@dephub.go.id
 
 
+
+
+									</div>
+
+									<img src="gambar/bpsdm.png" alt="" class="footer-logo">
+
+
+
+								</div>
+							</div>
+							<div class="col-md-3">
+								<!-- <div class="widget widget_links clearfix"> -->
+								<div class="widget clearfix">
+									<h4 class="ftitle">Kalender Kegiatan</h4>
+
+									<div id="my-calendar"></div>
+								</div>
+								<!-- </div> -->
+							</div>
+							<div class="col-md-3">
+								<div class="widget widget_links clearfix">
+
+									<h4 class="ftitle">Menu</h4>
+
+									<ul>
+										<li><a href="index.php">Home</a></li>
+										<li><a href="profile_sejarah.php">Profil</a></li>
+										<li><a href="publikasi_berita.php">Publikasi</a></li>
+										<li><a href="sekolah_kedinasan.php">Sekolah</a></li>
+										<li><a href="galeri_foto.php">Galeri</a></li>
+										<li><a href="kontak.php">Kontak</a></li>
+										<li><a href="#">Penerimaan Taruna</a></li>
+									</ul>
+
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="widget quick-contact-widget form-widget clearfix">
+
+									<h4 class="ftitle">Sosial Media</h4>
+
+									<a href="https://www.facebook.com/bpsdmkemenhub/" target="_blank" class="social-icon si-small si-rounded topmargin-sm si-facebook">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+
+									<a href="https://twitter.com/BPSDMP151?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"class="social-icon si-small si-rounded topmargin-sm si-twitter">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+
+									<a href="https://www.instagram.com/bpsdmp151/" target="_blank" class="social-icon si-small si-rounded topmargin-sm si-instagram">
+										<i class="icon-instagram"></i>
+										<i class="icon-instagram"></i>
+									</a>
+									<a href="https://www.youtube.com/channel/UCNGUU2impwfDjc2L_7MFOGg" target="_blank" class="social-icon si-small si-rounded topmargin-sm si-youtube">
+										<i class="icon-youtube"></i>
+										<i class="icon-youtube"></i>
+									</a>
+
+								</div>
+							</div>
 						</div>
 
-						<img src="gambar/bpsdm.png" alt="" class="footer-logo">
-
-
 
 					</div>
-				</div>
-				<div class="col-md-3">
-					<!-- <div class="widget widget_links clearfix"> -->
-						<div class="widget clearfix">
-						<h4 class="ftitle">Kalender Kegiatan</h4>
-
-						<div id="calendar"></div>
-					</div>
-					<!-- </div> -->
-				</div>
-				<div class="col-md-3">
-					<div class="widget widget_links clearfix">
-
-						<h4 class="ftitle">Menu</h4>
-
-						<ul>
-							<li><a href="index.php">Home</a></li>
-							<li><a href="profile_sejarah.php">Profil</a></li>
-							<li><a href="publikasi_berita.php">Publikasi</a></li>
-							<li><a href="sekolah_kedinasan.php">Sekolah</a></li>
-							<li><a href="galeri_foto.php">Galeri</a></li>
-							<li><a href="kontak.php">Kontak</a></li>
-							<li><a href="#">Penerimaan Taruna</a></li>
-						</ul>
-
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="widget quick-contact-widget form-widget clearfix">
-
-						<h4 class="ftitle">Sosial Media</h4>
-
-						<a href="#" class="social-icon si-small si-rounded topmargin-sm si-facebook">
-							<i class="icon-facebook"></i>
-							<i class="icon-facebook"></i>
-						</a>
-
-						<a href="#" class="social-icon si-small si-rounded topmargin-sm si-twitter">
-							<i class="icon-twitter"></i>
-							<i class="icon-twitter"></i>
-						</a>
-
-						<a href="#" class="social-icon si-small si-rounded topmargin-sm si-instagram">
-							<i class="icon-instagram"></i>
-							<i class="icon-instagram"></i>
-						</a>
 
 
-					</div>
-				</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
 			</div>
 
-
-		</div>
-
-
-
-	</div><!-- .footer-widgets-wrap end -->
-
-</div>
-
-<!-- Copyrights
+			<!-- Copyrights
 ============================================= -->
-<div id="copyrights">
+			<div id="copyrights">
 
-	<div class="container clearfix">
+				<div class="container clearfix">
 
-		<div class="col_full nobottommargin center">
-			<!-- <div class="copyrights-menu copyright-links clearfix">
-		<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a
-			href="#">FAQs</a>/<a href="#">Contact</a>
-	</div> -->
-			Copyrights &copy; 2020 
-		</div>
+					<div class="col_full nobottommargin center">
+						<!-- <div class="copyrights-menu copyright-links clearfix">
+					<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a
+						href="#">FAQs</a>/<a href="#">Contact</a>
+				</div> -->
+						Copyrights &copy; 2020
+					</div>
 
-	</div>
+				</div>
 
-</div><!-- #copyrights end -->
+			</div><!-- #copyrights end -->
 
-</footer>
+		</footer>
 
 </div><!-- #wrapper end -->
 
@@ -122,6 +151,13 @@
 	============================================= -->
 <script src="js/jquery.js"></script>
 <script src="js/plugins.js"></script>
+<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/rowreorder/1.2.7/js/dataTables.rowReorder.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.5/js/dataTables.responsive.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+<script src="tavocal/tavo-calendar.js"></script>
 
 
 <!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
@@ -135,6 +171,8 @@
 <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
 
 
 
@@ -173,6 +211,50 @@
 			return false;
 		});
 	});
+</script>
+<script>
+$(document).ready(function() {
+			$('#datatable1').dataTable({
+				rowReorder: {
+					selector: 'td:nth-child(2)'
+				},
+				responsive: true
+			});
+		});
+	const calendar_el = document.querySelector('#my-calendar');
+
+	const my_calendar = new TavoCalendar(calendar_el, {
+		// date: "2014-12-21",
+		selected: ["2014-12-24", "2020-07-11"],
+		//range_select: true
+		// highlight: ["2020-07-23"],
+		// blacklist: ["2020-07-24"]
+	})
+
+	calendar_el.addEventListener('calendar-select', (ev) => {
+		// alert(my_calendar.getSelected())
+		$('#myModal').modal('show');
+		// console.log(my_calendar.getSelected())
+	})
+
+	calendar_el.addEventListener('calendar-change', (ev) => {
+		const m = my_calendar.getFocusMonth();
+
+		// alert(`Month change to ${m}`)
+	})
+	myCalendar.addEventListener('calendar-reset', (ev) => {
+		alert('reset');
+	})
+
+		// calendar_el.addEventListener('calendar-range', (ev) => {
+		//     const range = my_calendar.getRange();
+
+		//     alert(`From ${range.start} to ${range.end}`)
+		// })
+
+		// calendar_el.addEventListener('calendar-reset', (ev) => {
+		//     alert('Reset');
+		// })
 </script>
 <script>
 	var data = [

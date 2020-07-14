@@ -20,9 +20,19 @@
     <div class="container clearfix">
 
         <div class="row mt-2">
-            <div class="col-sm-12 col-md-6"></div>
+            <div class="col-sm-12 col-md-6">
+            <div class="input-group w-100">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="icon-line-search"></i>
+							</span>
+						</div>
+						<input type="text" id="icons-filter" class="form-control" value="" placeholder="Pencarian">
+						<a href="javascript:void(0);" class="btn btn-primary cari" style="margin-left: 10px;">Cari</a>
+					</div>
+            </div>
             <div class="col-sm-12 col-md-6" id="container-show">
-                <div id="datatable1_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                <div id="datatable1_wrapper" class="dataTables_wrapper dt-bootstrap4 no-foote float-right">
                     <div class="dataTables_length" id="datatable1_length">
                         <label style="float: right;">Tampilkan
                             <select name="datatable1_length" aria-controls="datatable1" id="shows"
@@ -55,10 +65,11 @@
                     <article class="entry entry-custom">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
+                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/p3RlL_9j5YI" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
                             </div>
                             <div class="entry-title">
-                                <h3><a href="blog-single.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <h3><a href="blog-single.html">Pengalaman Berkuliah di Sekolah Transportasi
+
                                 </a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
@@ -77,10 +88,11 @@
                     <article class="entry entry-custom">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
+                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/71fdtQDs728" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
                             </div>
                             <div class="entry-title">
-                                <h3><a href="blog-single.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <h3><a href="blog-single.html">VIDEO PROFIL STTD BEKASI (SEKOLAH TINGGI TRANSPORTASI DARAT)
+
                                 </a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
@@ -99,10 +111,11 @@
                     <article class="entry entry-custom">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
+                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/QltOhMyiB5k" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
                             </div>
                             <div class="entry-title">
-                                <h3><a href="blog-single.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <h3><a href="blog-single.html">WISUDA TERPADU BPSDMP 2016 (PERWIRA TRANSPORTASI DARAT, LAUT, DAN UDARA)
+
                                 </a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
@@ -121,10 +134,10 @@
                     <article class="entry entry-custom">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
+                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/TvAz5yZopqw" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
                             </div>
                             <div class="entry-title">
-                                <h3><a href="blog-single.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <h3><a href="blog-single.html">SELAMAT HARI PERHUBUNGAN NASIONAL 2019
                                 </a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
@@ -143,10 +156,10 @@
                     <article class="entry entry-custom">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
+                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/6H7_Z-DsjFs" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
                             </div>
                             <div class="entry-title">
-                                <h3><a href="blog-single.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <h3><a href="blog-single.html">SIPENCATAR 2020
                                 </a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
@@ -165,10 +178,10 @@
                     <article class="entry entry-custom">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
+                                <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="http://www.youtube.com/embed/8U5-qSZbAQ" frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
                             </div>
                             <div class="entry-title">
-                                <h3><a href="blog-single.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <h3><a href="blog-single.html">VIDEO PROFIL STIP JAKARTA (SEKOLAH TINGGI ILMU PELAYARAN)
                                 </a></h3>
                             </div>
                             <ul class="entry-meta clearfix">

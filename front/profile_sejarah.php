@@ -1,5 +1,7 @@
 <?php include '_header.php' ?>
+<!-- <section style="background-image: url('gambar/pagetitle.JPG');height: 300px; margin-top: -100px;">
 
+</section> -->
         <section id="page-title">
 
             <div class="container clearfix">

@@ -60,6 +60,29 @@
                        
                        
                     </div>
+                    <div class="si-share noborder clearfix">
+                        <span>Share :</span>
+                        <div>
+                            <a href="#" class="social-icon si-borderless si-facebook">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
+                            <a href="#" class="social-icon si-borderless si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+                           
+                            <a href="#" class="social-icon si-borderless si-instagram">
+                                <i class="icon-instagram"></i>
+                                <i class="icon-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon si-borderless si-youtube">
+                                <i class="icon-youtube"></i>
+                                <i class="icon-youtube"></i>
+                            </a>
+                           
+                        </div>
+                    </div>
 
                 </div><!-- .entry end -->
                 <h4>Berita Lainnya :</h4>

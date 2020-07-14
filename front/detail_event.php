@@ -22,7 +22,9 @@
 
                 <div class="col_three_fourth">
                     <div class="entry-image nobottommargin">
-                        <a href="#"><img src="https://poltekpel-banten.ac.id/wp-content/uploads/2020/02/IMG20200204075631-375x300.jpg" alt="Event Single"></a>
+                        <a href="#"><img
+                                src="https://poltekpel-banten.ac.id/wp-content/uploads/2020/02/IMG20200204075631-375x300.jpg"
+                                alt="Event Single"></a>
                         <!-- <div class="entry-overlay">
                             <span class="d-none d-md-inline-block">Starts in: </span>
                             <div id="event-countdown" class="countdown is-countdown"><span
@@ -35,20 +37,73 @@
                                             class="countdown-period">Seconds</span></span></span></div>
                         </div> -->
                     </div>
-                </div>
-                <div class="col_one_fourth col_last">
                     <div class="card events-meta mb-3">
-                        <div class="card-header">
-                            <h5 class="mb-0">Info Kegitan:</h5>
-                        </div>
+
                         <div class="card-body">
                             <ul class="iconlist nobottommargin">
-                                <li><i class="icon-calendar3"></i> 01 July 2020</li>
-                                <li><i class="icon-time"></i> 12.00 - 15.00</li>
-                                <li><i class="icon-map-marker2"></i> Politeknik Pelayaran Banten</li>
-                                <!-- <li><i class="icon-euro"></i> <strong>99.99</strong></li> -->
+                                <li><i class="icon-calendar3"></i> 01 July 2020 &nbsp <i class="icon-time"></i> 12.00 -
+                                    15.00 &nbsp <i class="icon-map-marker2"></i> Politeknik Pelayaran Banten</li>
+
                             </ul>
                         </div>
+                    </div>
+                </div>
+                <div class="col_one_fourth col_last">
+                    <div class="widget clearfix mt-5" style="margin-top: 250px;">
+
+                        <h4>Kegiatan Lain</h4>
+
+                        <div id="popular-post-list-sidebar">
+                            <div class="spost clearfix">
+                                <div class="entry-image">
+                                    <a href="detail_event.php.php" class="nobg"><img class="rounded-circle"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQsi2O_8L3O13EVF_l0TBPdUHnIXUJjCcFthw&usqp=CAU" alt=""></a>
+                                </div>
+                                <div class="entry-c">
+                                    <div class="entry-title">
+                                        <h4><a href="#">Kegiatan Kunjungan Orang Tua Catar, INaugurasi dan Libur Natal Serta Tahun Baru</a></h4>
+                                    </div>
+                                    <ul class="entry-meta">
+                                        <li><i class="icon-calendar3"></i> Rabu, 3 Juli 2020</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="popular-post-list-sidebar">
+                            <div class="spost clearfix">
+                                <div class="entry-image">
+                                    <a href="detail_event.php.php" class="nobg"><img class="rounded-circle"
+                                            src="https://poltekpel-banten.ac.id/wp-content/uploads/2020/02/IMG20200204075631-375x300.jpg" alt=""></a>
+                                </div>
+                                <div class="entry-c">
+                                    <div class="entry-title">
+                                        <h4><a href="#">Pengumuman Hasil Sidang PUKP-02 Periode 27-30 April 2020</a></h4>
+                                    </div>
+                                    <ul class="entry-meta">
+                                        <li><i class="icon-calendar3"></i> Kamis, 10 Juli 2020</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="popular-post-list-sidebar">
+                            <div class="spost clearfix">
+                                <div class="entry-image">
+                                    <a href="detail_event.php.php" class="nobg"><img class="rounded-circle"
+                                            src="https://poltekpel-banten.ac.id/wp-content/uploads/2020/02/IMG20200204075631-375x300.jpg" alt=""></a>
+                                </div>
+                                <div class="entry-c">
+                                    <div class="entry-title">
+                                        <h4><a href="#">UKP Pra Prala taruna Diklat Pembentukan III</a></h4>
+                                    </div>
+                                    <ul class="entry-meta">
+                                        <li><i class="icon-calendar3"></i> Senin, 13 Juli 2020</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <!-- <a href="#" class="btn btn-success btn-block btn-lg">Buy Tickets</a> -->
                 </div>
@@ -68,17 +123,17 @@
                         ipsa laudantium! Provident expedita odio iste corporis nam natus illum. Cupiditate, quis libero
                         distinctio reiciendis quos adipisci eius animi.</p>
 
-                   
+
 
                 </div>
 
-                
+
 
                 <div class="clear"></div>
 
-               
 
-             
+
+
             </div>
 
         </div>

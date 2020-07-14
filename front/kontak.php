@@ -20,11 +20,7 @@
 	<div class="content-wrap">
 
 		<div class="container clearfix">
-			<div class="heading-block center">
-				<h2 style="color: black !important;">
-					Kontak </h2>
-				<!-- <span>Some of the Awesome Projects we've worked on.</span> -->
-			</div>
+			
 			<div class="postcontent nobottommargin">
 
 				<div class="fancy-title title-dotted-border">
@@ -106,14 +102,10 @@
 			</div>
 			<div class="sidebar col_last nobottommargin">
 
-				<address>
-					<strong>Headquarters:</strong><br>
-					795 Folsom Ave, Suite 600<br>
-					San Francisco, CA 94107<br>
-				</address>
-				<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-				<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-				<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+			<i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Medan merdeka Timur No.
+										5, Jakarta <br>
+										<i class="fa fa-phone" aria-hidden="true"></i> (021) 3847519 <br>
+										<i class="fa fa-envelope" aria-hidden="true"></i> humasti-bpsdmp@dephub.go.id
 
 				<div class="widget noborder notoppadding">
 
@@ -122,34 +114,24 @@
 
 				<div class="widget noborder notoppadding">
 
-					<a href="#" class="social-icon si-small si-dark si-facebook">
+				<a href="https://www.facebook.com/bpsdmkemenhub/" target="_blank" class="social-icon si-small si-dark si-facebook">
 						<i class="icon-facebook"></i>
 						<i class="icon-facebook"></i>
 					</a>
 
-					<a href="#" class="social-icon si-small si-dark si-twitter">
+					<a href="https://twitter.com/BPSDMP151?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="social-icon si-small si-dark si-twitter">
 						<i class="icon-twitter"></i>
 						<i class="icon-twitter"></i>
 					</a>
 
-					<a href="#" class="social-icon si-small si-dark si-dribbble">
-						<i class="icon-dribbble"></i>
-						<i class="icon-dribbble"></i>
+					<a href="https://www.instagram.com/bpsdmp151/" target="_blank" class="social-icon si-small si-dark si-instagram">
+						<i class="icon-instagram"></i>
+						<i class="icon-instagram"></i>
 					</a>
 
-					<a href="#" class="social-icon si-small si-dark si-forrst">
-						<i class="icon-forrst"></i>
-						<i class="icon-forrst"></i>
-					</a>
-
-					<a href="#" class="social-icon si-small si-dark si-pinterest">
-						<i class="icon-pinterest"></i>
-						<i class="icon-pinterest"></i>
-					</a>
-
-					<a href="#" class="social-icon si-small si-dark si-gplus">
-						<i class="icon-gplus"></i>
-						<i class="icon-gplus"></i>
+					<a href="https://www.youtube.com/channel/UCNGUU2impwfDjc2L_7MFOGg" target="_blank" class="social-icon si-small si-dark si-youtube">
+						<i class="icon-youtube"></i>
+						<i class="icon-youtube"></i>
 					</a>
 
 				</div>
@@ -163,43 +145,6 @@
 		</div>
 	</div>
 
-
-</section>
-<section id="section-faq" class="page-section mb-5" style="margin-top: 0px;">
-	
-
-	<div class="container clearfix">
-		<div class="heading-block center bottommargin-md">
-			<h2>FAQ</h2>
-		</div>
-		<div id="faqs" class="faqs">
-			<div class="toggle faq faq-marketplace faq-authors">
-				<div class="togglet"><i class="toggle-closed icon-comments-alt"></i><i
-						class="toggle-open icon-comments-alt"></i>Lorem ipsum dolor sit amet consectetur adipisicing ?</div>
-				<div class="togglec" style="display: none;">
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, quis ullam. Impedit id provident voluptatum, minus molestiae molestias eum possimus debitis quis fugit inventore maiores architecto quisquam aperiam iusto veritatis!</p>
-				</div>
-			</div>
-			<div class="toggle faq faq-marketplace faq-authors">
-				<div class="togglet"><i class="toggle-closed icon-comments-alt"></i><i
-						class="toggle-open icon-comments-alt"></i>Apa keunggulan Bpsdm?</div>
-				<div class="togglec" style="display: none;">
-					<ol>
-						<li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore autem eos, magnam soluta minus praesentium officiis enim quae, molestiae, atque eum quaerat iure accusantium ea aspernatur cum ducimus inventore aut?</li>
-					</ol>
-				</div>
-			</div>
-			<div class="toggle faq faq-marketplace faq-authors">
-				<div class="togglet"><i class="toggle-closed icon-comments-alt"></i><i
-						class="toggle-open icon-comments-alt"></i>Apa itu Bpsdm?</div>
-				<div class="togglec" style="display: none;">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur harum rerum provident ipsam, magnam sunt quaerat, saepe voluptas maxime, reprehenderit excepturi mollitia modi culpa totam aspernatur pariatur nostrum beatae.</p>
-				</div>
-			</div>
-
-		</div>
-
-	</div>
 
 </section>
 

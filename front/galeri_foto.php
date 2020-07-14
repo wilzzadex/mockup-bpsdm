@@ -45,7 +45,7 @@
                             </div>
                         </div>
                         <div class="portfolio-desc">
-                            <h3><a href="detail_foto.php">Judul Album</a></h3>
+                            <h3><a href="detail_foto.php">Bantuan Kesehatan</a></h3>
                             <!-- <span><a href="#">Media</a>, <a href="#">Icons</a></span> -->
                         </div>
                     </article>
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                         <div class="portfolio-desc">
-                            <h3><a href="detail_foto.php">Judul Album</a></h3>
+                            <h3><a href="detail_foto.php">Peduli Gempa Lombok</a></h3>
                             <!-- <span><a href="#">Media</a>, <a href="#">Icons</a></span> -->
                         </div>
                     </article>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                         <div class="portfolio-desc">
-                            <h3><a href="detail_foto.php">Judul Album</a></h3>
+                            <h3><a href="detail_foto.php">Leadership Training</a></h3>
                             <!-- <span><a href="#">Media</a>, <a href="#">Icons</a></span> -->
                         </div>
                     </article>
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                         <div class="portfolio-desc">
-                            <h3><a href="detail_foto.php">Judul Album</a></h3>
+                            <h3><a href="detail_foto.php">Foto Taruna 2020</a></h3>
                             <!-- <span><a href="#">Media</a>, <a href="#">Icons</a></span> -->
                         </div>
                     </article>
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                         <div class="portfolio-desc">
-                            <h3><a href="detail_foto.php">Judul Album</a></h3>
+                            <h3><a href="detail_foto.php">Foto Taruna 2019</a></h3>
                             <!-- <span><a href="#">Media</a>, <a href="#">Icons</a></span> -->
                         </div>
                     </article>
@@ -136,7 +136,7 @@
                             </div>
                         </div>
                         <div class="portfolio-desc">
-                            <h3><a href="detail_foto.php">Judul Album</a></h3>
+                            <h3><a href="detail_foto.php">Wisuda Taruna 2020</a></h3>
                             <!-- <span><a href="#">Media</a>, <a href="#">Icons</a></span> -->
                         </div>
                     </article>

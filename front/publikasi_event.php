@@ -22,9 +22,19 @@
                 <div class="container clearfix">
 
                     <div class="row mt-2">
-                        <div class="col-sm-12 col-md-6"></div>
+                        <div class="col-sm-12 col-md-6">
+                        <div class="input-group w-100">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="icon-line-search"></i>
+							</span>
+						</div>
+						<input type="text" id="icons-filter" class="form-control" value="" placeholder="Pencarian">
+						<a href="javascript:void(0);" class="btn btn-primary cari" style="margin-left: 10px;">Cari</a>
+					</div>
+                        </div>
                         <div class="col-sm-12 col-md-6" id="container-show">
-                            <div id="datatable1_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                            <div id="datatable1_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer float-right">
                                 <div class="dataTables_length" id="datatable1_length">
                                     <label style="float: right;">Tampilkan
                                         <select name="datatable1_length" aria-controls="datatable1" id="shows"

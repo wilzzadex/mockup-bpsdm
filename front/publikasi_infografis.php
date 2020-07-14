@@ -34,7 +34,7 @@
 					</div>
 				</div>
                 <div class="col-sm-12 col-md-6" id="container-show">
-                    <div id="datatable1_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                    <div id="datatable1_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer float-right">
                         <div class="dataTables_length" id="datatable1_length">
                             <label style="float: right;">Tampilkan
                                 <select name="datatable1_length" aria-controls="datatable1" id="shows"

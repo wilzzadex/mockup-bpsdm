@@ -247,7 +247,7 @@ small { font-family: 'Lato', sans-serif; }
 .custom-img {
 	min-height: 190px;
     max-height: 190px;
-    object-fit: contain;
+    object-fit: cover;
 }
 .custom-img2 {
 	min-height: 250px;
@@ -790,7 +790,7 @@ html[xmlns] .slider-wrap {display: block;}
 	float: left;
 	position: relative;
 	height: 44px;
-	border-left: 1px solid #EEE;
+	/* border-left: 1px solid #EEE; */
 }
 
 .top-links ul li:first-child,
@@ -1282,6 +1282,7 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 	background-color: #F9F9F9;
 	padding-left: 18px;
 	color: #FCDB00;
+	background-color: #007dc2;
 }
 
 #primary-menu ul ul > li.sub-menu > a,
@@ -11313,7 +11314,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 /* Heading Block - with Subtitle
 -----------------------------------------------------------------*/
 
-.heading-block { margin-bottom: 30px; }
+.heading-block { margin-bottom: 10px; }
 
 .heading-block h1,
 .heading-block h2,
@@ -11339,11 +11340,12 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 .heading-block h2 { font-size: 30px; }
 
-.heading-block h3 { font-size: 26px; }
+.heading-block h3 { font-size: 26px; border-color: yellow; }
 
 .heading-block h4 {
 	font-size: 20px;
 	font-weight: 700;
+	
 }
 
 .heading-block > span:not(.before-heading) {

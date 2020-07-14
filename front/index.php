@@ -8,6 +8,7 @@
 
 	<!-- Stylesheets
 	============================================= -->
+	<link rel="icon" href="gambar/13.png">
 	<link
 		href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
 		rel="stylesheet" type="text/css" />
@@ -22,32 +23,40 @@
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="minical/mini-event-calendar.min.css">
-	
+
 	<!-- <link rel="stylesheet" href="css/customresponsive.css" type="text/css" /> -->
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<link rel="stylesheet" href="mycss.css" type="text/css" />
+	<link rel="stylesheet" href="tavocal/tavo-calendar.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v7.0"
 		nonce="uxLTkaw8"></script>
+	<style>
+		#my-calendar {
+			max-width: 200px;
+			/* background-color: white; */
 
+		}
+	</style>
 	<!-- Document Title
 	============================================= -->
-	<title>BPSDM | HOME</title>
+	<title>BPSDMP</title>
 
 </head>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-	(function(){
-	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-	s1.async=true;
-	s1.src='https://embed.tawk.to/5f02d9be760b2b560e6fce83/default';
-	s1.charset='UTF-8';
-	s1.setAttribute('crossorigin','*');
-	s0.parentNode.insertBefore(s1,s0);
+	var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+	(function () {
+		var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+		s1.async = true;
+		s1.src = 'https://embed.tawk.to/5f02d9be760b2b560e6fce83/default';
+		s1.charset = 'UTF-8';
+		s1.setAttribute('crossorigin', '*');
+		s0.parentNode.insertBefore(s1, s0);
 	})();
-	</script>
-	<!--End of Tawk.to Script-->
+</script>
+<!--End of Tawk.to Script-->
+
 <body class="stretched">
 
 	<!-- Document Wrapper
@@ -64,9 +73,10 @@
 
 					<!-- Top Links
 					============================================= -->
+					
 					<div class="top-links">
 						<ul class="sf-js-enabled clearfix" style="touch-action: pan-y;">
-							<li><a href="#" class="text-white">ID</a></li>
+							<li><a href="#" style="color:#FCDB00;">ID</a></li>
 							<li><a href="#" class="text-white">EN</a></li>
 						</ul>
 					</div><!-- .top-links end -->
@@ -79,20 +89,22 @@
 					============================================= -->
 					<div id="top-social">
 						<ul>
-							<li><a href="#" class="si-facebook text-white" data-hover-width="108.625"
+							<li><a href="https://www.facebook.com/bpsdmkemenhub/" target="_blank" class="si-facebook text-white" data-hover-width="108.625"
 									style="width: 40px;"><span class="ts-icon"><i class="icon-facebook"></i></span><span
 										class="ts-text">Facebook</span></a></li>
-							<li><a href="#" class="si-twitter text-white" data-hover-width="94.9625"
+							<li><a href="https://twitter.com/BPSDMP151?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="si-twitter text-white" data-hover-width="94.9625"
 									style="width: 40px;"><span class="ts-icon"><i class="icon-twitter"></i></span><span
 										class="ts-text">Twitter</span></a>
 							</li>
-							<li><a href="#" class="si-instagram text-white" data-hover-width="110.6"
+							<li><a href="https://www.instagram.com/bpsdmp151/" target="_blank" class="si-instagram text-white" data-hover-width="110.6"
 									style="width: 40px;"><span class="ts-icon"><i
 											class="icon-instagram2"></i></span><span
 										class="ts-text">Instagram</span></a></li>
-							<li><a href="#" class="si-youtube text-white" data-hover-width="110.6"
+							<li><a href="https://www.youtube.com/channel/UCNGUU2impwfDjc2L_7MFOGg" target="_blank" class="si-youtube text-white" data-hover-width="110.6"
 									style="width: 40px;"><span class="ts-icon"><i class="icon-youtube"></i></span><span
 										class="ts-text">Youtube</span></a></li>
+							<li><a href="faq.php" class="text-white"
+									style="width: 40px;"><img width="90%" src="gambar/faq.png" alt=""></a></li>
 						</ul>
 					</div><!-- #top-social end -->
 
@@ -113,10 +125,10 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo" style="border-bottom:none !important;">
-						<a href="index.html" class="standard-logo" data-dark-logo="gambar/bpsdm2.png"><img
-								src="gambar/bpsdm2.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="gambar/bpsdm2.png"><img
-								src="gambar/bpsdm2.png" alt="Canvas Logo"></a>
+						<a href="index.php" class="standard-logo" data-dark-logo="gambar/bpsdm2.PNG"><img
+								src="gambar/bpsdm2.PNG" alt="Canvas Logo"></a>
+						<a href="index.php" class="retina-logo" data-dark-logo="gambar/bpsdm2.PNG"><img
+								src="gambar/bpsdm2.PNG" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -130,18 +142,20 @@
 							</li>
 							<li><a href="#">
 									<div>Profil<i class="icon-angle-down"></i></div>
-
 								</a>
 								<ul>
 									<li><a href="profile_sejarah.php">
 											<div>Sejarah</div>
-										</a></li>
+										</a>
+									</li>
 									<li><a href="profile_visi_misi.php">
 											<div>Visi & Misi</div>
-										</a></li>
+										</a>
+									</li>
 									<li><a href="profile_tugas_fungsi.php">
 											<div>Tugas & Fungsi</div>
-										</a></li>
+										</a>
+									</li>
 									<li><a href="">
 											<div>Struktur Organisasi
 											</div>
@@ -149,22 +163,320 @@
 										<ul>
 											<li><a href="profile_struktur_organisasi.php">
 													<div>BPSDMP</div>
-												</a></li>
+												</a>
+											</li>
 											<li><a href="#">
 													<div>Sekretariat BPSDM</div>
-												</a></li>
+												</a>
+											</li>
 											<li><a href="#">
 													<div>Matra Darat</div>
-												</a></li>
+												</a>
+												<ul>
+													
+													<li><a href="profile_struktur_organisasi.php">
+														<div>PDTI-STTD-BEKASI</div>
+														</a>
+													</li>
+													<li><a href="profile_struktur_organisasi.php">
+														<div>POLTEKTRANS SDP PALEMBANG</div>
+														</a>
+													</li>
+													<li><a href="profile_struktur_organisasi.php">
+														<div>PKTJ - TEGAL</div>
+														</a>
+													</li>
+													<li><a href="profile_struktur_organisasi.php">
+														<div>POLTRADA - BALI</div>
+														</a>
+													</li>
+													<li><a href="profile_struktur_organisasi.php">
+														<div>PPI - MADIUN</div>
+														</a>
+													</li>
+													<li><a href="profile_struktur_organisasi.php">
+														<div>BPPTD - MEMPAWAH</div>
+														</a>
+													</li>
+												</ul>
+											</li>
 											<li><a href="#">
 													<div>Matra Laut</div>
-												</a></li>
+												</a>
+												<ul>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>STIP - JAKARTA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>PIP - SEMARANG</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>PIP - MAKASSAR</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - BANTEN</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - SURABAYA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - BAROMBONG</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - SORONG</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - MALAHAYATI</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - SULAWESI UTARA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - SUMATERA BARAT</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>BP3IP - JAKARTA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>BPPTL - JAKARTA</div>
+														</a>
+													</li>
+												</ul>
+											</li>
 											<li><a href="#">
 													<div>Matra Udara</div>
-												</a></li>
+												</a>
+												<ul>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>PPI - CURUG</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLLTEKBANG - MEDAN</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKBANG - SURABAYA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKBANG - MAKASSAR</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>API BANYUWANGI</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKBANG - JAYAPURA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>BPPP - CURUG</div>
+														</a>
+													</li>
+												</ul>
+											</li>
 											<li><a href="#">
 													<div>SDM Aparatur</div>
-												</a></li>
+												</a>
+												<ul>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>BP3KSDMT - BANDUNG</div>
+														</a>
+													</li>
+												</ul>
+											</li>
+											
+										</ul>
+									</li>
+									<li>
+										<a href="profile_struktur_organisasi.php">
+											<div>Satuan Kerja</div>
+										</a>
+										<ul>
+
+											<li><a href="#">
+													<div>Matra Darat</div>
+												</a>
+												<ul>
+													
+													<li><a href="profile_struktur_organisasi.php">
+														<div>PDTI-STTD-BEKASI</div>
+														</a>
+													</li>
+													<li><a href="profile_struktur_organisasi.php">
+														<div>POLTEKTRANS SDP PALEMBANG</div>
+														</a>
+													</li>
+													<li><a href="profile_struktur_organisasi.php">
+														<div>PKTJ - TEGAL</div>
+														</a>
+													</li>
+													<li><a href="profile_struktur_organisasi.php">
+														<div>POLTRADA - BALI</div>
+														</a>
+													</li>
+													<li><a href="profile_struktur_organisasi.php">
+														<div>PPI - MADIUN</div>
+														</a>
+													</li>
+													<li><a href="profile_struktur_organisasi.php">
+														<div>BPPTD - MEMPAWAH</div>
+														</a>
+													</li>
+												</ul>
+											</li>
+											<li><a href="#">
+													<div>Matra Laut</div>
+												</a>
+												<ul>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>STIP - JAKARTA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>PIP - SEMARANG</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>PIP - MAKASSAR</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - BANTEN</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - SURABAYA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - BAROMBONG</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - SORONG</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - MALAHAYATI</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - SULAWESI UTARA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKPEL - SUMATERA BARAT</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>BP3IP - JAKARTA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>BPPTL - JAKARTA</div>
+														</a>
+													</li>
+												</ul>
+											</li>
+											<li><a href="#">
+													<div>Matra Udara</div>
+												</a>
+												<ul>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>PPI - CURUG</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLLTEKBANG - MEDAN</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKBANG - SURABAYA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKBANG - MAKASSAR</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>API BANYUWANGI</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>POLTEKBANG - JAYAPURA</div>
+														</a>
+													</li>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>BPPP - CURUG</div>
+														</a>
+													</li>
+												</ul>
+											</li>
+											<li><a href="#">
+													<div>SDM Aparatur</div>
+												</a>
+												<ul>
+													<li>
+														<a href="profile_struktur_organisasi.php">
+															<div>BP3KSDMT - BANDUNG</div>
+														</a>
+													</li>
+												</ul>
+											</li>
+											
 										</ul>
 									</li>
 								</ul>
@@ -188,6 +500,9 @@
 									<li><a href="laporan_diklat.php">
 											<div>Laporan Diklat Pemberdayaan Masyarakat</div>
 										</a></li>
+									<li><a href="laporan_diklat.php">
+										<div>Big Data SDM Perhubungan</div>
+									</a></li>
 								</ul>
 							</li>
 							<li><a href="sekolah_kedinasan.php">
@@ -229,33 +544,45 @@
 			</div>
 
 		</header><!-- #header end -->
-
-		<section id="slider" class="slider-element slider-parallax swiper_wrapper clearfix">
+		<section id="slider" class="slider-element slider-parallax swiper_wrapper clearfix slider-parallax-visible" style="transform: translateY(0px);" data-autoplay="6000" data-loop="true">
+		<!-- <section id="slider" class="slider-element slider-parallax swiper_wrapper clearfix" > -->
 
 			<div class="swiper-container swiper-parent">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide dark" style="background-image: url('gambar/slider1.jpg');">
+					<div class="swiper-slide dark" style="background-image: url('gambar/slide8.JPG');">
 						<div class="container clearfix">
-							<div class="slider-caption slider-caption-center text-white">
-								<h2 data-animate="fadeInUp" class="text-white">Welcome to Canvas</h2>
-								<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Create just what
-									you need for your Perfect Website. Choose from a wide range of Elements &amp; simply
-									put them on our Canvas.</p>
+							<div class="slider-caption text-white">
+								<h2 data-animate="fadeInUp" class="text-white"> Taruna</h2>
+								<!-- <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Sub  Taruna</p> -->
 							</div>
 						</div>
 					</div>
-					<div class="swiper-slide dark" style="background-image: url('gambar/slide2.jpg');">
+					<div class="swiper-slide dark" style="background-image: url('gambar/slide2.JPG');">
 						<div class="container clearfix">
-							<div class="slider-caption slider-caption-center text-white">
-								<h2 data-animate="fadeInUp" class="text-white">Welcome to Canvas</h2>
-								<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Create just what
-									you need for your Perfect Website. Choose from a wide range of Elements &amp; simply
-									put them on our Canvas.</p>
+							<div class="slider-caption text-white">
+							<h2 data-animate="fadeInUp" class="text-white"> Taruna</h2>
+								<!-- <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Sub  Taruna</p> -->
 							</div>
 						</div>
 					</div>
-					
-					
+					<div class="swiper-slide dark" style="background-image: url('gambar/slide7.JPG');">
+						<div class="container clearfix">
+							<div class="slider-caption text-white">
+							<h2 data-animate="fadeInUp" class="text-white"> Taruna</h2>
+								<!-- <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Sub  Taruna</p> -->
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide dark" style="background-image: url('gambar/slider9.JPG');">
+						<div class="container clearfix">
+							<div class="slider-caption text-white">
+							<h2 data-animate="fadeInUp" class="text-white"> Taruna</h2>
+								<!-- <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Sub  Taruna</p> -->
+							</div>
+						</div>
+					</div>
+
+
 				</div>
 				<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
 				<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
@@ -272,21 +599,22 @@
 
 			<div class="row sicon">
 				<div class="col-md-3 text-center">
-					<img src="icon/file.png" style="width: 60px; padding-top: 30px;" alt="">
+					<a href="regulasi.php"><img src="icon/file.png" style="width: 40px; padding-top: 30px;" alt=""></a>
 					<p>Regulasi</p>
 				</div>
 				<div class="col-md-3 text-center">
-					<img src="icon/file.png" style="width: 60px; padding-top: 30px;" alt="">
-					<p>Regulasi</p>
+				<a href="kerja_sama.php"><img src="icon/clip.png" style="width: 40px; padding-top: 30px;" alt=""></a>
+					<p>Kerja Sama</p>
 				</div>
 				<div class="col-md-3 text-center">
-					<img src="icon/file.png" style="width: 60px; padding-top: 30px;" alt="">
-					<p>Regulasi</p>
+					<img src="icon/bigdata.png" style="width: 40px; padding-top: 30px;" alt="">
+					<p>Big Data SDM Perhubungan</p>
 				</div>
 				<div class="col-md-3 text-center">
-					<img src="icon/file.png" style="width: 60px; padding-top: 30px;" alt="">
-					<p>Regulasi</p>
+					<img src="icon/penerimaan.png" style="width: 40px; padding-top: 30px;" alt="">
+					<p>Penerimaan Taruna</p>
 				</div>
+				
 			</div>
 
 
@@ -294,49 +622,14 @@
 
 		</section>
 
-		<!-- <section id="content">
-
-			<div class="row ipost clearfix">
-				<div class="col-md-4 col-sm-12"
-					style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('gambar/berita2.jpg') center 45% no-repeat; background-size:cover;">
-					<div class="section-content topmargin-sm">
-						<h4 class="ml-3 mr-5 text-white ">Motivasi Taruna, Kepala BPSDMP Ikut Apel Malam Bersama STIP Jakarta </h4>
-						<p class="ml-3 mr-5 text-white">Kepala Badan Pengembangan Sumber Daya Manusia Perhubungan (BPSDMP), Umiyatun Hayati Triastuti, berkunjung ke Kampus Sekolah Tinggi Ilmu Pelayaran (STIP) Jakarta, sekaligus mengikuti apel malam pada Senin (20/1/2020)...</p>
-						<a href="" class="ml-3 mr-5 more-link uppercase t500"
-							style="font-family: 'Poppins', sans-serif;">Selengkapnya<i
-								class="icon-line-arrow-right"></i></a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12"
-					style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('gambar/berita3.jpg') center 45% no-repeat; background-size:cover;">
-					<div class="section-content topmargin-sm">
-						<h4 class="ml-3 mr-5 text-white ">TINDAK LANJUTI MOU TENTANG PENGEMBANGAN SDM PERHUBUNGAN UDARA </h4>
-						<p class="ml-3 mr-5 text-white">SURABAYA (17/1) – Kepala Pusat Pengembangan Sumber Daya Manusia Perhubungan Udara (PPSDMPU), Badan Pengembangan SDM Perhubungan Heri Sudarmaji dan Direktur Eksekutif JIT Training and Resources...</p>
-						<a href="" class="ml-3 mr-5 more-link uppercase t500"
-							style="font-family: 'Poppins', sans-serif;">Selengkapnya<i
-								class="icon-line-arrow-right"></i></a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12"
-					style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('gambar/berita4.jpg') center 45% no-repeat; background-size:cover;">
-					<div class="section-content topmargin-sm">
-						<h4 class="ml-3 mr-5 text-white ">TINGKATKAN KOMPETENSI SDM MARITIM, KEPALA BPSDM PERHUBUNGAN LANTIK PERWIRA PELAUT</h4>
-						<p class="ml-3 mr-5 text-white">karta (8/1) - Kepala Badan Pengembangan Sumber Daya Manusia Perhubungan (BPSDMP), Umiyatun Hayati Triastuti memimpin upacara Wisuda ke-26 Diklat Pelaut Tingkat - II dan III Bidang Keahlian Nautika dan Teknika yang...</p>
-						<a href="" class="ml-3 mr-5 more-link uppercase t500"
-							style="font-family: 'Poppins', sans-serif;">Selengkapnya<i
-								class="icon-line-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- Content
-		============================================= -->
-		<section id="content" style="margin-bottom: 0px; background-color: #F1F4FC;">
+		
+	
+		<section id="content" style="margin-bottom: 0px;height: 330px; background-color: #F1F4FC;">
 			<div class="content-wrap">
 				<div class="container clearfix">
-					<div class="heading-block center">
-						<h4 style="color: black !important;">
-							Sekolah Kedinasan </h4>
+					<div class="heading-block border-color center" style="margin-top: -50px !important;">
+						<h3>
+							Sekolah Kedinasan </h3>
 						<!-- <span>Some of the Awesome Projects we've worked on.</span> -->
 					</div>
 
@@ -351,15 +644,14 @@
 						<div class="oc-item">
 							<div class="iportfolio">
 								<div class="portfolio-image ">
-									<a href="portfolio-single.html">
+									<a href="sekolah_kedinasan.php?matra=darat">
 										<center><img style="width: 100px;"
-												src="https://balitbanghub.dephub.go.id/storage/app/uploads/public/5da/ec0/1ba/5daec01bae5a4334864571.png"
-												alt="Console Activity"></center>
+												src="gambar/suv.png"></center>
 									</a>
 								</div>
 								<div class="portfolio-desc">
 									<center>
-										<h5>Darat</h5>
+										<h5 style="font-size: 17px;">Matra Darat</h5>
 									</center>
 
 								</div>
@@ -368,15 +660,15 @@
 						<div class="oc-item">
 							<div class="iportfolio">
 								<div class="portfolio-image ">
-									<a href="portfolio-single.html">
+									<a href="sekolah_kedinasan.php?matra=laut">
 										<center><img style="width: 100px;"
-												src="https://balitbanghub.dephub.go.id/storage/app/uploads/public/5da/ec0/1ba/5daec01bae5a4334864571.png"
+												src="gambar/ship.png"
 												alt="Console Activity"></center>
 									</a>
 								</div>
 								<div class="portfolio-desc">
 									<center>
-										<h5>Laut</h5>
+										<h5 style="font-size: 17px;">Matra Laut</h5>
 									</center>
 
 								</div>
@@ -385,15 +677,15 @@
 						<div class="oc-item">
 							<div class="iportfolio">
 								<div class="portfolio-image ">
-									<a href="portfolio-single.html">
+									<a href="sekolah_kedinasan.php?matra=udara">
 										<center><img style="width: 100px;"
-												src="https://balitbanghub.dephub.go.id/storage/app/uploads/public/5da/ec0/1ba/5daec01bae5a4334864571.png"
+												src="gambar/army.png"
 												alt="Console Activity"></center>
 									</a>
 								</div>
 								<div class="portfolio-desc">
 									<center>
-										<h5>Udara</h5>
+										<h5 style="font-size: 17px;">Matra Udara</h5>
 									</center>
 
 								</div>
@@ -409,7 +701,7 @@
 				<div class="container clearfix">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="heading-block center">
+							<div class="heading-block border-color center">
 								<h4>Galeri Foto</h4>
 							</div>
 							<!-- galeri foto -->
@@ -428,7 +720,7 @@
 										</div>
 										<div class="portfolio-desc">
 											<center>
-												<h5>Album 1</h5>
+												<h5>Bantuan Kesehatan</h5>
 											</center>
 
 										</div>
@@ -445,35 +737,17 @@
 										</div>
 										<div class="portfolio-desc">
 											<center>
-												<h5>Album 2</h5>
+												<h5>Leadership Training</h5>
 											</center>
 
 										</div>
 									</div>
 								</div>
-								<div class="oc-item">
-									<div class="iportfolio">
-										<div class="portfolio-image ">
-											<a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">
-												<center><img
-														src="http://bpsdm.dephub.go.id/uploads/gambar_galeri/2018_07_17_150403_625cf86b2162c928f1e7521c0d42e9f2.jpg"
-														alt="Console Activity"></center>
-											</a>
-										</div>
-										<div class="portfolio-desc">
-											<center>
-												<h5>Album 3</h5>
-											</center>
-
-										</div>
-									</div>
-								</div>
-
 
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div class="heading-block center">
+							<div class="heading-block border-color center">
 								<h4>Galeri Video</h4>
 							</div>
 							<!-- Galeri Video -->
@@ -486,8 +760,8 @@
 										<div class="portfolio-image ">
 											<a href="portfolio-single.html">
 												<center>
-													<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
-														<iframe src="http://www.youtube.com/embed/SZEflIVnhH8"
+													<div style="height: 177px;" class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
+														<iframe src="http://www.youtube.com/embed/QltOhMyiB5k"
 															frameborder="0" allowfullscreen="" id="fitvid1"></iframe>
 													</div>
 												</center>
@@ -495,7 +769,7 @@
 										</div>
 										<div class="portfolio-desc">
 											<center>
-												<h5>Judul Video</h5>
+												<h5>WISUDA TERPADU BPSDMP 2016 (PERWIRA TRANSPORTASI DARAT, LAUT, DAN UDARA)</h5>
 											</center>
 
 										</div>
@@ -506,8 +780,8 @@
 										<div class="portfolio-image ">
 											<a href="portfolio-single.html">
 												<center>
-													<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
-														<iframe src="http://www.youtube.com/embed/SZEflIVnhH8"
+													<div  style="height: 177px;" class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
+														<iframe src="http://www.youtube.com/embed/p3RlL_9j5YI"
 															frameborder="0" allowfullscreen="" id="fitvid1"></iframe>
 													</div>
 												</center>
@@ -515,27 +789,7 @@
 										</div>
 										<div class="portfolio-desc">
 											<center>
-												<h5>Judul Video</h5>
-											</center>
-
-										</div>
-									</div>
-								</div>
-								<div class="oc-item">
-									<div class="iportfolio">
-										<div class="portfolio-image ">
-											<a href="portfolio-single.html">
-												<center>
-													<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
-														<iframe src="http://www.youtube.com/embed/SZEflIVnhH8"
-															frameborder="0" allowfullscreen="" id="fitvid1"></iframe>
-													</div>
-												</center>
-											</a>
-										</div>
-										<div class="portfolio-desc">
-											<center>
-												<h5>Judul Video</h5>
+												<h5>Pengalaman Berkuliah di Sekolah Transportasi</h5>
 											</center>
 
 										</div>
@@ -549,12 +803,12 @@
 			</div>
 
 		</section>
-		<section id="content" style="margin-bottom: 0px;">
+		<section id="content" style="margin-bottom: 0px; ">
 			<div class="content-wrap">
 				<div class="container clearfix">
-					<div class="heading-block center">
-						<h2 style="color: black !important;">
-							Publikasi </h2>
+					<div class="heading-block border-color center">
+						<h3>
+							Publikasi </h3>
 					</div>
 
 					<div class="tabs tabs-alt tabs-justify clearfix" id="tab-10">
@@ -657,73 +911,67 @@
 
 									<div class="col-lg-4 col-md-6 bottommargin">
 										<div class="ipost clearfix">
-											<div class="entry-image">
-												<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
-													<iframe src="http://www.youtube.com/embed/SZEflIVnhH8"
-														frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
+											<div class="entry-image" class="custom-img">
+												<a href="detail_pers.php"><img class="image_fade custom-img" src="gambar/pers1.jpg" alt="Image"
+														style="opacity: 1;"></a>
 											</div>
 											<div class="entry-title">
-												<h3><a href="blog-single.html">Bloomberg smart cities; change-makers
-														economic security</a></h3>
+												<h3><a href="detail_pers.php">BPSDM COLLABORATES WITH THE EUROPEAN
+														COMMISSION IN ORGANISING VIRTUAL GENERAL LECTURE TO GIVE
+														INTERNATIONAL INSIGHT TO CADETS</a></h3>
 											</div>
 											<ul class="entry-meta clearfix">
 												<li><i class="icon-calendar3"></i> 13th Jun 2014</li>
-												<li><a href="blog-single.html#comments"><i class="icon-comments"></i>
-														53</a></li>
+												<!-- <li><a href="detail_pers.phpdetail_pers.phpcomments"><i class="icon-comments"></i>
+														53</a></li> -->
 											</ul>
 											<div class="entry-content">
-												<p>Prevention effect, advocate dialogue rural development lifting people
-													up community civil society. Catalyst, grantees leverage.</p>
+												<p>Jakarta (4/7) - In order to give insight on the organisation of
+													transportation in the European Union to cadets of colleges managed
+													by the Ministry ...</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-6 bottommargin">
+										<div class="ipost clearfix">
+											<div class="entry-image" class="custom-img">
+												<a href="detail_pers.php"><img class="image_fade custom-img" src="https://www.koran-jakarta.com/images/article/php7hjl_0_resized.jpg" alt="Image"
+														style="opacity: 1;"></a>
+											</div>
+											<div class="entry-title">
+												<h3><a href="detail_pers.php">BPSDM Perhubungan Optimalkan Pembelajaran Jarak Jauh</a></h3>
+											</div>
+											<ul class="entry-meta clearfix">
+												<li><i class="icon-calendar3"></i> 13th Jun 2014</li>
+												<!-- <li><a href="detail_pers.phpdetail_pers.phpcomments"><i class="icon-comments"></i>
+														53</a></li> -->
+											</ul>
+											<div class="entry-content">
+												<p>JAKARTA - Pada masa Pandemi Covid-19, Badan Pengembangan Sumber Daya Manusia (BPSDM) Perhubungan terus melakukan berbagai terobosan agar...</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-6 bottommargin">
+										<div class="ipost clearfix">
+											<div class="entry-image" class="custom-img">
+												<a href="#"><img class="image_fade custom-img" src="https://pict-a.sindonews.net/dyn/620/pena/news/2020/05/07/34/20583/bpsdmp-perhubungan-jaga-kualitas-pengajaran-di-tengah-covid19-vkt.jpg" alt="Image"
+														style="opacity: 1;"></a>
+											</div>
+											<div class="entry-title">
+												<h3><a href="detail_pers.php">BPSDMP Perhubungan Jaga Kualitas Pengajaran di Tengah Covid-19</a></h3>
+											</div>
+											<ul class="entry-meta clearfix">
+												<li><i class="icon-calendar3"></i> 13th Jun 2014</li>
+												<!-- <li><a href="detail_pers.php#comments"><i class="icon-comments"></i>
+														53</a></li> -->
+											</ul>
+											<div class="entry-content">
+												<p>JAKARTA - Di tengah pandemi Covid-19, pendidikan taruna di bawah Badan Pengembangan Sumber Daya Manusia Perhubungan (BPSDMP) terus berupaya menjaga ...</p>
 											</div>
 										</div>
 									</div>
 
-									<div class="col-lg-4 col-md-6 bottommargin">
-										<div class="ipost clearfix">
-											<div class="entry-image">
-												<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
-													<iframe src="http://www.youtube.com/embed/SZEflIVnhH8"
-														frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
-											</div>
-											<div class="entry-title">
-												<h3><a href="blog-single.html">Medicine new approaches communities,
-														outcomes partnership</a></h3>
-											</div>
-											<ul class="entry-meta clearfix">
-												<li><i class="icon-calendar3"></i> 24th Feb 2014</li>
-												<li><a href="blog-single.html#comments"><i class="icon-comments"></i>
-														17</a></li>
-											</ul>
-											<div class="entry-content">
-												<p>Cross-agency coordination clean water rural, promising development
-													turmoil inclusive education transformative community.</p>
-											</div>
-										</div>
-									</div>
 
-									<div class="col-lg-4 col-md-6 bottommargin">
-										<div class="ipost clearfix">
-											<div class="entry-image">
-												<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
-													<iframe src="http://www.youtube.com/embed/SZEflIVnhH8"
-														frameborder="0" allowfullscreen="" id="fitvid1"></iframe></div>
-											</div>
-											<div class="entry-title">
-												<h3><a href="blog-single.html">Significant altruism planned giving
-														insurmountable challenges liberal</a></h3>
-											</div>
-											<ul class="entry-meta clearfix">
-												<li><i class="icon-calendar3"></i> 30th Dec 2014</li>
-												<li><a href="blog-single.html#comments"><i class="icon-comments"></i>
-														13</a></li>
-											</ul>
-											<div class="entry-content">
-												<p>Micro-finance; vaccines peaceful contribution citizens of change
-													generosity. Measures design thinking accelerate progress medical
-													initiative.</p>
-											</div>
-										</div>
-									</div>
 
 								</div>
 							</div>
@@ -747,7 +995,7 @@
 												</div>
 											</div>
 											<div class="portfolio-desc">
-												<h3><a href="portfolio-single.html">Judul 1</a></h3>
+												<h3><a href="portfolio-single.html">Sebaran Pendidikan Pegawai</a></h3>
 												<!-- <span><a href="#">UI Elements</a>, <a href="#">Media</a></span> -->
 											</div>
 										</div>
@@ -766,7 +1014,7 @@
 												</div>
 											</div>
 											<div class="portfolio-desc">
-												<h3><a href="portfolio-single.html">Judul 1</a></h3>
+												<h3><a href="portfolio-single.html">Infografis Peta Penyebaran Jafung</a></h3>
 												<!-- <span><a href="#">UI Elements</a>, <a href="#">Media</a></span> -->
 											</div>
 										</div>
@@ -785,7 +1033,7 @@
 												</div>
 											</div>
 											<div class="portfolio-desc">
-												<h3><a href="portfolio-single.html">Judul 1</a></h3>
+												<h3><a href="portfolio-single.html">Infografis Peta Sebaran Pelatihan Bidang Perumahan dan Permukiman</a></h3>
 												<!-- <span><a href="#">UI Elements</a>, <a href="#">Media</a></span> -->
 											</div>
 										</div>
@@ -804,7 +1052,7 @@
 												</div>
 											</div>
 											<div class="portfolio-desc">
-												<h3><a href="portfolio-single.html">Judul 1</a></h3>
+												<h3><a href="portfolio-single.html">Infografis Prosedur Jafung</a></h3>
 												<!-- <span><a href="#">UI Elements</a>, <a href="#">Media</a></span> -->
 											</div>
 										</div>
@@ -839,7 +1087,7 @@
 
 
 						<div class="entry clearfix" style="position: absolute; left: 0px; top: 0px;">
-							<div class="heading-block center">
+							<div class="heading-block border-color center">
 								<h4 style="color: black !important;">
 									Facebook </h4>
 							</div>
@@ -857,7 +1105,7 @@
 						</div>
 
 						<div class="entry clearfix" style="position: absolute; left: 0px; top: 0px;">
-							<div class="heading-block center">
+							<div class="heading-block border-color center">
 								<h4 style="color: black !important;">
 									Instagram </h4>
 							</div>
@@ -965,7 +1213,7 @@
 						</div>
 
 						<div class="entry clearfix" style="position: absolute; left: 0px; top: 0px;">
-							<div class="heading-block center">
+							<div class="heading-block border-color center">
 								<h4 style="color: black !important;">
 									Twitter </h4>
 							</div>
@@ -985,7 +1233,7 @@
 
 		</section>
 
-		
+
 		<!-- MODAL GALERI -->
 		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
 			aria-hidden="true">
@@ -993,7 +1241,7 @@
 				<div class="modal-body">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h4 class="modal-title" id="myModalLabel">Album 1</h4>
+							<h4 class="modal-title" id="myModalLabel">Bantuan Kesehatan</h4>
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 						</div>
 						<div class="modal-body">
@@ -1005,37 +1253,37 @@
 										data-speed="1200" data-pause="7000">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide" data-thumb="images/slider/boxed/thumbs/2.jpg">
+												<div class="slide" data-thumb="http://bpsdm.dephub.go.id/uploads/gambar_galeri/2018_10_05_103223_952bf00cff435818f1aa08df3dc79518.jpg">
 													<a href="#">
-														<img src="images/slider/boxed/2.jpg" alt="Slide 2">
-														<div class="flex-caption slider-caption-bg">Responsive Ready
-															Design</div>
+														<img src="http://bpsdm.dephub.go.id/uploads/gambar_galeri/2018_10_05_103223_952bf00cff435818f1aa08df3dc79518.jpg" alt="Slide 2">
+														<!-- <div class="flex-caption slider-caption-bg">Responsive Ready
+															Design</div> -->
 													</a>
 												</div>
-												<div class="slide" data-thumb="images/slider/boxed/thumbs/3.jpg">
+												<div class="slide" data-thumb="http://bpsdm.dephub.go.id/uploads/gambar_galeri/2018_10_05_103223_9af9f8c750ccd3841d8f689907566944.jpg">
 													<a href="#">
-														<img src="images/slider/boxed/3.jpg" alt="Slide 3">
-														<div
+														<img src="http://bpsdm.dephub.go.id/uploads/gambar_galeri/2018_10_05_103223_9af9f8c750ccd3841d8f689907566944.jpg" alt="Slide 3">
+														<!-- <div
 															class="flex-caption slider-caption-bg slider-caption-bg-light slider-caption-top-left">
-															Retina Graphics Display</div>
+															Retina Graphics Display</div> -->
 													</a>
 												</div>
-												<div class="slide" data-thumb="images/slider/boxed/thumbs/4.jpg">
+												<div class="slide" data-thumb="http://bpsdm.dephub.go.id/uploads/gambar_galeri/2018_10_05_103223_2409a03517b01ddc190bc33e5bf33cc1.jpg">
 													<a href="#">
-														<img src="images/slider/boxed/4.jpg" alt="Slide 4">
-														<div
+														<img src="http://bpsdm.dephub.go.id/uploads/gambar_galeri/2018_10_05_103223_2409a03517b01ddc190bc33e5bf33cc1.jpg" alt="Slide 4">
+														<!-- <div
 															class="flex-caption slider-caption-bg slider-caption-top-right">
-															Bootstrap 3+ Compatible</div>
+															Bootstrap 3+ Compatible</div> -->
 													</a>
 												</div>
-												<div class="slide" data-thumb="images/slider/boxed/thumbs/5.jpg">
+												<!-- <div class="slide" data-thumb="images/slider/boxed/thumbs/5.jpg">
 													<a href="#">
 														<img src="images/slider/boxed/5.jpg" alt="Slide 5">
 														<div
 															class="flex-caption slider-caption-bg slider-caption-bg-light slider-caption-bottom-right">
 															eCommerce Design Included</div>
 													</a>
-												</div>
+												</div> -->
 											</div>
 										</div>
 									</div>
@@ -1053,8 +1301,35 @@
 			aria-hidden="true">
 			<div class="modal-dialog modal-lg">
 				<div class="modal-body">
-					<img src="gambar/popup.png"
-						alt="">
+					<img src="gambar/pu-min.PNG" alt="">
+				</div>
+			</div>
+		</div>
+
+		<!-- MODAL EVENT -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-body">
+					<div class="modal-content">
+						<div class="modal-header" style="margin: 0px !important;">
+							<h4 class="modal-title" id="myModalLabel">Detail Kegiatan</h4>
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						</div>
+						<div class="modal-body">
+							<ul style="list-style-type: none;">
+								<li><a href="detail_event.php">UKP PRA PRALA TARUNA DIKLAT PEMBENTUKAN III</a></li>
+								<li>12.00 - 15.00</li>
+								<hr>
+								<li><a href="detail_event.php">UKP PRA PRALA TARUNA DIKLAT PEMBENTUKAN III</a></li>
+								<li>12.00 - 15.00</li>
+							</ul>
+						</div>
+						<div class="modal-footer" >
+							<button type="button" class="btn btn-xs btn-secondary " data-dismiss="modal">Close</button>
+							<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1094,10 +1369,10 @@
 							</div>
 							<div class="col-md-3">
 								<!-- <div class="widget widget_links clearfix"> -->
-									<div class="widget clearfix">
+								<div class="widget clearfix">
 									<h4 class="ftitle">Kalender Kegiatan</h4>
 
-									<div id="calendar"></div>
+									<div id="my-calendar"></div>
 								</div>
 								<!-- </div> -->
 							</div>
@@ -1123,19 +1398,23 @@
 
 									<h4 class="ftitle">Sosial Media</h4>
 
-									<a href="#" class="social-icon si-small si-rounded topmargin-sm si-facebook">
+									<a href="https://www.facebook.com/bpsdmkemenhub/" target="_blank" class="social-icon si-small si-rounded topmargin-sm si-facebook">
 										<i class="icon-facebook"></i>
 										<i class="icon-facebook"></i>
 									</a>
 
-									<a href="#" class="social-icon si-small si-rounded topmargin-sm si-twitter">
+									<a href="https://twitter.com/BPSDMP151?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"class="social-icon si-small si-rounded topmargin-sm si-twitter">
 										<i class="icon-twitter"></i>
 										<i class="icon-twitter"></i>
 									</a>
 
-									<a href="#" class="social-icon si-small si-rounded topmargin-sm si-instagram">
+									<a href="https://www.instagram.com/bpsdmp151/" target="_blank" class="social-icon si-small si-rounded topmargin-sm si-instagram">
 										<i class="icon-instagram"></i>
 										<i class="icon-instagram"></i>
+									</a>
+									<a href="https://www.youtube.com/channel/UCNGUU2impwfDjc2L_7MFOGg" target="_blank" class="social-icon si-small si-rounded topmargin-sm si-youtube">
+										<i class="icon-youtube"></i>
+										<i class="icon-youtube"></i>
 									</a>
 
 
@@ -1163,7 +1442,7 @@
 					<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a
 						href="#">FAQs</a>/<a href="#">Contact</a>
 				</div> -->
-						Copyrights &copy; 2020 
+						Copyrights &copy; 2020
 					</div>
 
 				</div>
@@ -1182,7 +1461,8 @@
 	============================================= -->
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.js"></script>
-	<script src="minical//mini-event-calendar.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+	<script src="tavocal/tavo-calendar.js"></script>
 
 
 
@@ -1190,24 +1470,42 @@
 	============================================= -->
 	<script src="js/functions.js"></script>
 	<script>
+		// var to = 5000;
+		// var dur = to + 8000
+		
 		$(document).ready(function () {
-			$(window).on('load', function () {
-				$('.bs-example-modal-lg2').modal('show');
+			$( window ).on("load", function() {
+				$(".bs-example-modal-lg2").modal('show');
+				setTimeout(function () {
+					$(".bs-example-modal-lg2").modal('hide');
+				},  5000);
 			});
-			setTimeout(function () {
-				$(".bs-example-modal-lg2").modal('hide');
-			}, 10000); // 5000 to load it after 5 seconds from page load
-
-
-			$("#calendar").MEC();
-
-			
 			
 
+
+			const calendar_el = document.querySelector('#my-calendar');
+
+			const my_calendar = new TavoCalendar(calendar_el, {
+				selected: ["2014-12-24", "2020-07-11"],
+			})
+
+			calendar_el.addEventListener('calendar-select', (ev) => {
+				$('#myModal').modal('show');
+			})
+
+			calendar_el.addEventListener('calendar-change', (ev) => {
+				const m = my_calendar.getFocusMonth();
+
+				// alert(`Month change to ${m}`)
+			})
+			calendar_el.addEventListener('calendar-reset', (ev) => {
+				alert('reset');
+			})
 		});
 
 
 	</script>
+
 
 </body>
 
