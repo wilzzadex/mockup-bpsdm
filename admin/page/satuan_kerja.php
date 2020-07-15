@@ -34,55 +34,45 @@
                 <thead>
                     <tr>
                         <th width="15px"></th>
-                        <!-- <th>No</th> -->
-                        <th width="525px">Nama</th>
+                        <th >Nama</th>
                         <th>Update</th>
                         <th>Aksi</th>
-                        <!-- <th>Salary</th> -->
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <!-- <td class="details-control">N</td> -->
                         <td></td>
-                        <!-- <td>1</td> -->
-                        <td>BPSDMP</td>
-                        <td>02 Juli 2020</td>
-                        <td><a href="edit" class="btn btn-info btn-xs">Edit</a></td>
+                        <td style="width: 493px;" > BPSDMP</td>
+                        <td style="width: 400px;">02 Juli 2020</td>
+                        <td><a href="?menu=edit_satuan" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
-                        <!-- <td class="details-control">N</td> -->
                         <td></td>
-                        <!-- <td>2</td> -->
                         <td>Sekretariat BPSDMP</td>
                         <td>02 Juli 2020</td>
-                        <td><button class="btn btn-info btn-xs">Edit</button></td>
+                        <td><a href="?menu=edit_satuan" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
                         <td class="details-control darat"></td>
-                        <td>Matra Darat</td>
-                        <!-- <td></td> -->
+                        <td >Matra Darat</td>
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td class="details-control laut"></td>
                         <td>Matra Laut</td>
-                        <!-- <td></td> -->
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td class="details-control udara"></td>
                         <td>Matra Udara</td>
-                        <!-- <td></td> -->
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td class="details-control aparatur"></td>
                         <td>SDM Aparatur</td>
-                        <!-- <td></td> -->
                         <td></td>
                         <td></td>
                     </tr>

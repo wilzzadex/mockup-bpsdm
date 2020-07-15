@@ -196,6 +196,8 @@
                         include 'u_mrole.php';
                     }elseif($menu == 'struktur_edit'){
                         include 'struktur_edit.php';
+                    }elseif($menu == 'edit_satuan'){
+                        include 'edit_satuan.php';
                     }else{
                         // include 'login.php';
                     }
@@ -208,6 +210,11 @@
         </div>
         <!-- end: PAGE -->
     </div>
+    <div class="modal fade" id="modalGambar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <center><img class="text-center" width="300px" style="width: 500px;border-radius: 10px;" src="http://bpsdm.dephub.go.id/uploads/sturktur_organisasi/2019_08_26_112933_9d9f04747470d6c117f335119424ee5d.jpg" alt="Your Avatar" ></center>
+        </div>
+      </div>
     <!-- end: MAIN CONTAINER -->
     <!-- start: FOOTER -->
     <div class="footer clearfix">
@@ -302,6 +309,8 @@
     <script src="bower_components/bootstrap-fileinput/js/fileinput.min.js"></script>
     <script src="assets/js/min/form-elements.min.js"></script>
 
+    <script src="https://cdn.datatables.net/fixedcolumns/3.3.1/js/dataTables.fixedColumns.min.js"></script>
+
     <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 
     <script>
@@ -354,8 +363,8 @@
             return `<table cellpadding="5" class="table table-bordered" cellspacing="0" border="0" style="padding-left:50px;">
                     <tr>
                         <td width="28px">1.</td>
-                        <td width="543px">PDTI STTD - BEKASI</td>
-                        <td width="500px">02 Juli 2020</td>
+                        <td width="495px">PDTI STTD - BEKASI</td>
+                        <td width="430px">02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
@@ -491,8 +500,17 @@
                    
                    </table>`;
         }
+
+        // function addDarat(){
+        //     var tes = $(this).attr('class')
+        //     console.log(tes)
+        // }
+
         $(document).ready(function(){
-            var table = $('#example').DataTable()
+            var table = $('#example').removeAttr('width').DataTable({
+               
+            })
+
             $('#example tbody').on('click', 'td.details-control.darat', function () {
                 var tr = $(this).closest('tr');
                 var row = table.row( tr );
@@ -554,6 +572,7 @@
                 }
             } );
 
+          
 
             $('input:radio[name="videosource"]').change(
                 function(){
@@ -633,12 +652,12 @@
                 showCaption: !1,
                 browseLabel: "",
                 removeLabel: "",
-                browseIcon: '<i class="glyphicon glyphicon-picture"></i> Choose Image',
+                browseIcon: '<i class="glyphicon glyphicon-picture"></i> Pilih Gambar',
                 removeIcon: '<i class="glyphicon glyphicon-remove"></i>',
                 removeTitle: "Cancel or reset changes",
                 elErrorContainer: "#kv-avatar-errors",
                 msgErrorClass: "alert alert-block alert-danger",
-                defaultPreviewContent: '<img class="text-center" width="300px" src="http://bpsdm.dephub.go.id/uploads/sturktur_organisasi/2019_08_26_112933_9d9f04747470d6c117f335119424ee5d.jpg" alt="Your Avatar" >',
+                defaultPreviewContent: '<a href="#" data-toggle="modal" data-target="#modalGambar"><img class="text-center" width="300px" src="http://bpsdm.dephub.go.id/uploads/sturktur_organisasi/2019_08_26_112933_9d9f04747470d6c117f335119424ee5d.jpg" alt="Your Avatar" ></a>',
                 layoutTemplates: {
                     main2: "{preview} {remove} {browse}"
                 },
@@ -665,7 +684,7 @@
 
             CKEDITOR.disableAutoInline = !0, $("textarea.ckeditor").ckeditor()
 
-            282
+            
 
 
             
