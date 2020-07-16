@@ -40,12 +40,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <!-- <tr>
                         <td></td>
                         <td style="width: 493px;" > BPSDMP</td>
                         <td style="width: 400px;">02 Juli 2020</td>
                         <td><a href="?menu=edit_satuan" class="btn btn-info btn-xs">Edit</a></td>
-                    </tr>
+                    </tr> -->
                     <tr>
                         <td></td>
                         <td>Sekretariat BPSDMP</td>

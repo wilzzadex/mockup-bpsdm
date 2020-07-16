@@ -20,7 +20,7 @@
                
             </ol>
             <div class="page-header">
-                <h1>PIP - SEMARANG</h1>
+                <h1>SEKRETARIAT BPSDMP</h1>
             </div>
             <!-- end: PAGE TITLE & BREADCRUMB -->
         </div>
