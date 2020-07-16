@@ -108,6 +108,7 @@
                                 </thead>
                                 <tbody id="gambar">
                                     <tr id="img_0">
+                                
                                         <td><input type="text" placeholder="Judul ..." class="form-control"></td>
                                         <td><input type="file" accept=".jpg,.png" class="form-control"></td>
                                         <td><button class="btn btn-danger btn-sm" onclick="removeGambar(0)"><i class="fa fa-trash"></i></button></td>

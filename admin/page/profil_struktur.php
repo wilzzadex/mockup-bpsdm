@@ -35,8 +35,8 @@
                     <tr>
                         <th width="15px"></th>
                         <!-- <th>No</th> -->
-                        <th width="543px">Nama</th>
-                        <th>Update</th>
+                        <th >Nama</th>
+                        <th >Update</th>
                         <th>Aksi</th>
                         <!-- <th>Salary</th> -->
                     </tr>
@@ -46,8 +46,8 @@
                         <!-- <td class="details-control">N</td> -->
                         <td></td>
                         <!-- <td>1</td> -->
-                        <td>BPSDMP</td>
-                        <td>02 Juli 2020</td>
+                        <td style="width: 493px;">BPSDMP</td>
+                        <td style="width: 400px;">02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>

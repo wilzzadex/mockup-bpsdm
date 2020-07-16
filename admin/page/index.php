@@ -84,6 +84,8 @@
             float: left;
             font-style: italic;
         }
+
+       
     </style>
 </head>
 
@@ -309,8 +311,7 @@
     <script src="bower_components/bootstrap-fileinput/js/fileinput.min.js"></script>
     <script src="assets/js/min/form-elements.min.js"></script>
 
-    <script src="https://cdn.datatables.net/fixedcolumns/3.3.1/js/dataTables.fixedColumns.min.js"></script>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 
     <script>
@@ -354,7 +355,11 @@
             var items = $('.btn-danger')
             // console.log(items.length) 
             if(items.length == 2){
-                alert('Minimal harus ada 1 gambar !')
+                swal({
+                    text: "Minimal Terdapat 1 Foto !",
+                    icon: "warning",
+                });
+                // alert('Minimal harus ada 1 gambar !')
             }else{
                 $('#img_'+id).remove()
             }
@@ -363,8 +368,8 @@
             return `<table cellpadding="5" class="table table-bordered" cellspacing="0" border="0" style="padding-left:50px;">
                     <tr>
                         <td width="28px">1.</td>
-                        <td width="495px">PDTI STTD - BEKASI</td>
-                        <td width="430px">02 Juli 2020</td>
+                        <td width="493px">PDTI STTD - BEKASI</td>
+                        <td width="400px">02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
@@ -402,56 +407,68 @@
         function formatLaut ( d ) {
             return `<table cellpadding="5" class="table table-bordered" cellspacing="0" border="0" style="padding-left:50px;">
                     <tr>
-                        <td>STIP - JAKARTA</td>
-                        <td>02 Juli 2020</td>
+                        <td width="28px">1.</td>
+                        <td width="493px">STIP - JAKARTA</td>
+                        <td width="400px">02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">2.</td>
                         <td>PIP - SEMARANG</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">3.</td>
                         <td>PIP - MAKASSAR</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">4.</td>
                         <td>POLTEKPEL - BANTEN</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">5.</td>
+                        
                         <td>POLTEKPEL - SURABAYA</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">6.</td>
                         <td>POLTEKPEL - BAROMBONG</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">7.</td>
                         <td>POLTEKPEL - SORONG</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">8.</td>
                         <td>POLTEKPEL - MALAHAYATI</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">9.</td>
                         <td>POLTEKPEL - SULAWESI UTARA</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">10.</td>
                         <td>POLTEKPEL - SUMATERA BARAT</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">11.</td>
                         <td>BP3IP - JAKARTA</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
@@ -463,26 +480,31 @@
             return `<table cellpadding="5" class="table table-bordered" cellspacing="0" border="0" style="padding-left:50px;">
                     
                     <tr>
-                        <td>PPI - CURUG</td>
-                        <td>02 Juli 2020</td>
+                        <td width="28px">1.</td>
+                        <td width="493px">PPI - CURUG</td>
+                        <td width="400px">02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">2.</td>
                         <td>POLTEKBANG - MEDAN</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">3.</td>
                         <td>POLTEKBANG - SURABAYA</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">4.</td>
                         <td>POLTEKBANG - MAKASSAR</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>
+                        <td width="28px">5.</td>
                         <td>API - BANYUWANGI</td>
                         <td>02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
@@ -493,8 +515,9 @@
             return `<table cellpadding="5" class="table table-bordered" cellspacing="0" border="0" style="padding-left:50px;">
                     
                     <tr>
-                        <td>BP3KSDMT - BANDUNG</td>
-                        <td>02 Juli 2020</td>
+                        <td width="28px">1.</td>
+                        <td width="493px">BP3KSDMT - BANDUNG</td>
+                        <td width="400px">02 Juli 2020</td>
                         <td><a href="?menu=struktur_edit" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                    
