@@ -220,7 +220,7 @@
                     <div class="row pull-right">
                         <div class="col-md-12 space20 ">
                         <a href="?menu=tambah_berita" class="btn btn-default add-row my-2">
-                                Cancel <i class="fa fa-remove "></i>
+                                Batal <i class="fa fa-remove "></i>
                             </a>
                             <a href="?menu=tambah_berita" class="btn btn-primary add-row my-2">
                                 Simpan Ke Draft <i class="fa fa-paper-plane "></i>

@@ -106,7 +106,7 @@
                     <div class="row pull-right">
                         <div class="col-md-12 space20">
                         <a href="?menu=sekolah" class="btn btn-default add-row">
-                                Cancel <i class="fa fa-remove "></i>
+                                Batal <i class="fa fa-remove "></i>
                             </a>
                             <a href="?menu=sekolah" class="btn btn-success add-row">
                                 Simpan <i class="fa fa-save" aria-hidden="true"></i>
