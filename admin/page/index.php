@@ -623,7 +623,19 @@
                    }
                    
                 });
-            $('#sample_1').dataTable();
+            $('#sample_1').dataTable({
+                "language": {
+                            "sSearch": "Cari",
+                            "lengthMenu": "Menampilkan _MENU_ baris",
+                            "zeroRecords": "Nothing found - sorry",
+                            "info": "Manampilkan Halaman _PAGE_ dari _PAGES_ Halaman",
+                            "infoEmpty": "Tidak Ditemukan Data",
+                            "infoFiltered": "(Terfilter dari _MAX_ total Baris)",
+                            "oPaginate": {
+                                "sFirst" : "Pertama"
+                            }
+                            }
+            });
             
             $('#date-picker').datepicker({
                 format:"dd MM yyyy"
