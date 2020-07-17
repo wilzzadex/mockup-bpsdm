@@ -1339,8 +1339,6 @@
 
 			<div class="container">
 
-				<!-- Footer Widgets
-	============================================= -->
 				<div class="footer-widgets-wrap clearfix">
 
 					<div class="col_full">
@@ -1368,13 +1366,11 @@
 								</div>
 							</div>
 							<div class="col-md-3">
-								<!-- <div class="widget widget_links clearfix"> -->
 								<div class="widget clearfix">
 									<h4 class="ftitle">Kalender Kegiatan</h4>
 
 									<div id="my-calendar"></div>
 								</div>
-								<!-- </div> -->
 							</div>
 							<div class="col-md-3">
 								<div class="widget widget_links clearfix">
@@ -1427,31 +1423,26 @@
 
 
 
-				</div><!-- .footer-widgets-wrap end -->
-
+				</div>
 			</div>
 
-			<!-- Copyrights
-============================================= -->
+		
 			<div id="copyrights">
 
 				<div class="container clearfix">
 
 					<div class="col_full nobottommargin center">
-						<!-- <div class="copyrights-menu copyright-links clearfix">
-					<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a
-						href="#">FAQs</a>/<a href="#">Contact</a>
-				</div> -->
+					
 						Copyrights &copy; 2020
 					</div>
 
 				</div>
 
-			</div><!-- #copyrights end -->
+			</div>
 
 		</footer>
 
-	</div><!-- #wrapper end -->
+	</div>
 
 	<!-- Go To Top
 	============================================= -->

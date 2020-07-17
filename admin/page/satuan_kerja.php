@@ -48,8 +48,8 @@
                     </tr> -->
                     <tr>
                         <td></td>
-                        <td>Sekretariat BPSDMP</td>
-                        <td>02 Juli 2020</td>
+                        <td width="493px">Sekretariat BPSDMP</td>
+                        <td width="400px">02 Juli 2020</td>
                         <td><a href="?menu=edit_satuan" class="btn btn-info btn-xs">Edit</a></td>
                     </tr>
                     <tr>

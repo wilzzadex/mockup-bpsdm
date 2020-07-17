@@ -20,7 +20,7 @@
                 <li>
                     Tambah Album
                 </li>
-            
+
             </ol>
             <div class="page-header">
                 <h1>Tambah Album</h1>
@@ -98,33 +98,40 @@
                                     </div>
                                 </div>
                             </div> -->
-                            <table class="table table-bordered" >
+                            <table class="table table-bordered">
                                 <thead>
                                     <tr>
-                                        <th>Judul</th>
+                                        <th >Judul (ID)</th>
+                                        <th >Judul (EN)</th>
                                         <th>Gambar</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody id="gambar">
                                     <tr id="img_0">
-                                
+                                       
                                         <td><input type="text" placeholder="Judul ..." class="form-control"></td>
-                                        <td><input type="file" accept=".jpg,.png" class="form-control"></td>
-                                        <td><button class="btn btn-danger btn-sm" onclick="removeGambar(0)"><i class="fa fa-trash"></i></button></td>
+                                        <td><input type="text" placeholder="Judul ..." class="form-control"></td>
+                                        <td>
+                                            <label class="btn btn-raised btn-default btn-sm" style="color: white; width: 180px; background:grey; height: 30px;"> <i class="fa fa-picture-o"></i> Pilih Gambar<input type="file" name="file[]" accept="image/*" style="opacity: 0;" onchange="hasilgmbr(this)" required></label>  
+                                            <span class="label-gmbr" style="margin-left: 2%;"> Belum Ada Gambar</span>  
+                                           
+                                        </td>
+                                        <td><button class="btn btn-danger btn-sm" onclick="removeGambar(0)"><i
+                                                    class="fa fa-trash"></i></button></td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <button class="btn btn-primary btn-sm" onclick="addGambar()">Tambah Gambar</button><br>
+                            <button class="btn btn-primary btn-sm" id="tambah-gambar" onclick="addGambar()">Tambah Gambar</button><br>
                             <label class="recommendation" style="margin-top: 20px;">
-                                                Keterangan:<br>
-                                                <ul>
-                                                    <li>Rekomendasi Ukuran Image: 200x350 pixel</li>
-                                                    <li>Ukuran File Image Maksimal: 5 Mb</li>
-                                                </ul>
-                                            </label> <br>
-                                            <br>
-                                            <br>
+                                Keterangan:<br>
+                                <ul>
+                                    <li>Rekomendasi Ukuran Image: 200x350 pixel</li>
+                                    <li>Ukuran File Image Maksimal: 5 Mb</li>
+                                </ul>
+                            </label> <br>
+                            <br>
+                            <br>
 
                         </div>
                     </div>
@@ -149,4 +156,19 @@
         </div>
     </div>
     <!-- end: PAGE CONTENT-->
+</div>
+<div class="modal fade" id="detil" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="" id="gambar_modal" width="100%" />
+            </div>
+        </div>
+    </div>
 </div>

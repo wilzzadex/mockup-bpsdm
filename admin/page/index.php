@@ -85,6 +85,17 @@
             font-style: italic;
         }
 
+
+        #tes {
+            display: none;
+        }
+        .btn-upload {
+            border: 1px solid #ccc;
+            display: inline-block;
+            padding: 6px 12px;
+            cursor: pointer;
+        }
+
        
     </style>
 </head>
@@ -318,14 +329,19 @@
         var img_id = 1;
         function addGambar(){
             $('#gambar').append(`
-                
-                 <tr id="img_`+img_id+`">
-                    <td><input type="text" placeholder="Judul ..." class="form-control"></td>
-                    <td><input type="file" accept=".jpg,.png" class="form-control"></td>
-                    <td><button class="btn btn-danger btn-sm" onclick="removeGambar(`+img_id+`)"><i class="fa fa-trash"></i></button></td>
-                </tr>
-            `)
-            img_id++;
+                        
+                        <tr id="img_`+img_id+`">
+                        <td><input type="text" placeholder="Judul ..." class="form-control"></td>
+                                        <td><input type="text" placeholder="Judul ..." class="form-control"></td>
+                                        <td>
+                                            <label class="btn btn-raised btn-default btn-sm" style="color: white; width: 180px; background:grey; height: 30px;"> <i class="fa fa-picture-o"></i> Pilih Gambar<input type="file" name="file[]" accept="image/*" style="opacity: 0;" onchange="hasilgmbr(this)" required></label>  
+                                            <span class="label-gmbr" style="margin-left: 2%;"> Belum Ada Gambar</span>  
+                                           
+                                        </td>
+                        <td><button class="btn btn-danger btn-sm" onclick="removeGambar(`+img_id+`)"><i class="fa fa-trash"></i></button></td>
+                    </tr>
+                `)
+                img_id++;
         }
 
         misi_id = 1;
@@ -530,6 +546,9 @@
         // }
 
         $(document).ready(function(){
+
+            
+            
             var table = $('#example').removeAttr('width').DataTable({
                
             })
@@ -643,43 +662,8 @@
 
             $('.time-picker').timepicker();
             
-            $("#input-simple").fileinput(), $("#input-preview").fileinput();
-            $("#mediaIn").fileinput({
-                overwriteInitial: !0,
-                maxFileSize: 2e3,
-                showClose: !1,
-                showCaption: !1,
-                browseLabel: "",
-                removeLabel: "",
-                browseIcon: '<i class="glyphicon glyphicon-folder-open"></i>',
-                removeIcon: '<i class="glyphicon glyphicon-remove"></i>',
-                removeTitle: "Cancel or reset changes",
-                elErrorContainer: "#kv-avatar-errors",
-                msgErrorClass: "alert alert-block alert-danger",
-                defaultPreviewContent: '<img src="http://www.placehold.it/160x160/EFEFEF/AAAAAA?text=no+image" alt="Your Avatar" >',
-                layoutTemplates: {
-                    main2: "{preview} {remove} {browse}"
-                },
-                allowedFileExtensions: ["jpg", "png", "gif"]
-            })
-            $("#mediaEn").fileinput({
-                overwriteInitial: !0,
-                maxFileSize: 2e3,
-                showClose: !1,
-                showCaption: !1,
-                browseLabel: "",
-                removeLabel: "",
-                browseIcon: '<i class="glyphicon glyphicon-folder-open"></i>',
-                removeIcon: '<i class="glyphicon glyphicon-remove"></i>',
-                removeTitle: "Cancel or reset changes",
-                elErrorContainer: "#kv-avatar-errors",
-                msgErrorClass: "alert alert-block alert-danger",
-                defaultPreviewContent: '<img src="http://www.placehold.it/160x160/EFEFEF/AAAAAA?text=no+image" alt="Your Avatar" >',
-                layoutTemplates: {
-                    main2: "{preview} {remove} {browse}"
-                },
-                allowedFileExtensions: ["jpg", "png", "gif"]
-            })
+            // $("#input-simple").fileinput(), $("#input-preview").fileinput();
+          
             $("#struktur").fileinput({
                 overwriteInitial: !0,
                 maxFileSize: 2e3,
@@ -716,20 +700,80 @@
                 },
                 allowedFileExtensions: ["jpg", "png", "gif"]
             })
-
+            $("#input-simple").fileinput({
+                overwriteInitial: !0,
+                maxFileSize: 2e3,
+                showClose: !1,
+                showUpload : !1,
+                browseLabel: "",
+                removeLabel: "",
+                uploadLabel: "",
+                browseIcon: '<i class="glyphicon glyphicon-picture"></i> Pilih Gambar',
+                removeIcon: '<i class="glyphicon glyphicon-remove"></i>',
+                removeTitle: "Cancel or reset changes",
+                elErrorContainer: "#kv-avatar-errors",
+                msgErrorClass: "alert alert-block alert-danger",
+                allowedFileExtensions: ["jpg", "png", "gif"]
+           
+            });
             CKEDITOR.disableAutoInline = !0, $("textarea.ckeditor").ckeditor()
 
-            
-
-
-            
-            
         })
         jQuery(document).ready(function () {
             
             Main.init();
             Index.init();
         });
+
+        function hasilgmbr(obj) {
+            var url = $(obj).val();
+            var ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
+            var text = url.substring(12);
+            
+            if (obj.files && obj.files[0] && (ext == "png" || ext == "jpeg" || ext == "jpg")) {
+                if(obj.files[0].size > 5242880){
+                    var mb = (5242880/1024/1024);
+                    swal({
+                    type: 'error',
+                    title: 'Oops...',
+                    text: 'File gambar harus lebih kecil dari '+mb+' MB',
+                    },function(){
+                        $(obj).closest('td').find('.label-gmbr').html('Tidak ada gambar');
+                        $("#inputFile").val('');
+                    });
+                }else{
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        var image = new Image();
+                        image.src = e.target.result;
+                        image.onload = function () {
+                          var height = this.height;
+                          var width = this.width;
+                          console.log(width+'x'+height);
+                        };
+                        $(obj).closest('td').find('.label-gmbr').html('<a href="javascript:void(0);" onclick="lihat_gmbr(this)" data-toggle="modal" data-target="#detil" data-gmbr="'+e.target.result+'">'+text+'</a>');
+                    }
+                    reader.readAsDataURL(obj.files[0]);  
+                }
+                              
+            }
+            else{
+                swal({
+                    type: 'error',
+                    title: 'Oops...',
+                    text: 'Anda salah memasukan gambar. Gambar harus dalam format png/jpeg/jpg!',
+                },function(){
+                    $(obj).val('');
+                    $(obj).closest('td').find('.label-gmbr').text('Belum ada gambar.');
+                });
+            }
+        }
+
+
+        function lihat_gmbr(obj) {
+            var img = $(obj).attr('data-gmbr');
+            $('#gambar_modal').attr('src', img);
+        }
 
         
 

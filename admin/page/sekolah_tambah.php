@@ -126,18 +126,24 @@
                                    
                                     <thead>
                                         <tr>
-                                            <th colspan="3"><b> <center> Galeri </center></b></th>
+                                            <th colspan="4"><b> <center> Galeri </center></b></th>
                                         </tr>
                                         <tr>
-                                            <th>Judul</th>
+                                            <th>Judul(ID)</th>
+                                            <th>Judul(EN)</th>
                                             <th>Gambar</th>
                                             <th>Aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody id="gambar">
                                         <tr id="img_0">
-                                            <td><input type="text" placeholder="Judul ..." class="form-control"></td>
-                                            <td><input type="file" accept=".jpg,.png" class="form-control"></td>
+                                        <td><input type="text" placeholder="Judul ..." class="form-control"></td>
+                                        <td><input type="text" placeholder="Judul ..." class="form-control"></td>
+                                        <td>
+                                            <label class="btn btn-raised btn-default btn-sm" style="color: white; width: 180px; background:grey; height: 30px;"> <i class="fa fa-picture-o"></i> Pilih Gambar<input type="file" name="file[]" accept="image/*" style="opacity: 0;" onchange="hasilgmbr(this)" required></label>  
+                                            <span class="label-gmbr" style="margin-left: 2%;"> Belum Ada Gambar</span>  
+                                           
+                                        </td>
                                             <td><button class="btn btn-danger btn-sm" onclick="removeGambar(0)"><i
                                                         class="fa fa-trash"></i></button></td>
                                         </tr>
