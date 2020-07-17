@@ -20,7 +20,7 @@
                 <li>
                     Tambah Siaran Pers
                 </li>
-               
+
             </ol>
             <div class="page-header">
                 <h1>Tambah Siaran Pers</h1>
@@ -36,7 +36,7 @@
                 <div class="panel-heading">
                     <i class="fa fa-external-link-square"></i>
                     <div class="panel-tools">
-                       
+
                     </div>
                 </div>
                 <div class="panel-body">
@@ -62,31 +62,67 @@
                                             <div class="form-group">
                                                 <div class="col-sm-12">
                                                     <label for="">Judul</label>
-                                                    <input type="text" placeholder="Judul" id="form-field-1" class="form-control">
+                                                    <input type="text" placeholder="Judul" id="form-field-1"
+                                                        class="form-control">
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="col-sm-12">
                                                     <label for="">Deskripsi</label>
-                                                    <textarea name="" class="ckeditor form-control" cols="30" rows="10"></textarea>
+                                                    <textarea name="" class="ckeditor form-control" cols="30"
+                                                        rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+
+                                                <div class="col-sm-12">
+
+                                                    <div class="input-group" id="picker-container">
+                                                        <label class="control-label" for="form-field-1">
+                                                            Tanggal
+                                                        </label>
+                                                        <input type="text" id="date-picker"
+                                                            data-date-format="dd-mm-yyyy" data-date-viewmode="years"
+                                                            class="form-control date-picker">
+                                                        <span class="input-group-addon"> <i class="fa fa-calendar"></i>
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </form>
                                         </p>
                                     </div>
                                     <div class="tab-pane" id="panel_tab3_example2">
-                                    <p>
+                                        <p>
                                         <form role="form" class="form-horizontal">
                                             <div class="form-group">
                                                 <div class="col-sm-12">
                                                     <label for="">Title</label>
-                                                    <input type="text" placeholder=" Title" id="form-field-1" class="form-control">
+                                                    <input type="text" placeholder=" Title" id="form-field-1"
+                                                        class="form-control">
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="col-sm-12">
                                                     <label for="">Description</label>
-                                                    <textarea name="" class="ckeditor form-control" cols="30" rows="10"></textarea>
+                                                    <textarea name="" class="ckeditor form-control" cols="30"
+                                                        rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+
+                                                <div class="col-sm-12">
+
+                                                    <div class="input-group" id="picker-container">
+                                                        <label class="control-label" for="form-field-1">
+                                                            Date
+                                                        </label>
+                                                        <input type="text" id="date-picker"
+                                                            data-date-format="dd-mm-yyyy" data-date-viewmode="years"
+                                                            class="form-control date-picker">
+                                                        <span class="input-group-addon"> <i class="fa fa-calendar"></i>
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </form>
@@ -95,34 +131,34 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                               
-                                    <p>
-                                       Thumbnail
-                                    </p>
-                                    <label class="radio-inline">
-                                        <input type="radio"  name="videosource" checked value="yt">
-                                        Youtube
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" name="videosource" value="local">
-                                        Gambar
-                                    </label>
-                                   
-                                
+
+                                <p>
+                                    Thumbnail
+                                </p>
+                                <label class="radio-inline">
+                                    <input type="radio" name="videosource" checked value="yt">
+                                    Youtube
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="videosource" value="local">
+                                    Gambar
+                                </label>
+
+
                             </div>
                             <div class="form-group" id="elemen">
                                 <input type="text" placeholder="Url Youtube" id="form-field-1" class="form-control">
                             </div>
-                            
+
                         </div>
                         <div class="col-sm-4" id="recomend">
-                            
+
                         </div>
                     </div>
                     <br>
                     <div class="row pull-right">
                         <div class="col-md-12 space20">
-                        <a href="?menu=tambah_berita" class="btn btn-default add-row my-2">
+                            <a href="?menu=tambah_berita" class="btn btn-default add-row my-2">
                                 Batal <i class="fa fa-remove "></i>
                             </a>
                             <a href="?menu=tambah_berita" class="btn btn-primary add-row my-2">
@@ -134,8 +170,8 @@
                         </div>
                     </div>
                 </div>
-                
-               
+
+
             </div>
         </div>
     </div>

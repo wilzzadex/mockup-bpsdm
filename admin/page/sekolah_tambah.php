@@ -78,8 +78,15 @@
                                     <input type="text" placeholder="Website ..." id="form-field-1" class="form-control">
                                 </div>
                                 <div class="form-group">
+                                    
+                                    <label for="">Deskripsi (ID)</label>
+                                    <textarea name="" placeholder="Alamat ..." class="ckeditor" id="" cols="30"
+                                        class="form-control" rows="3"></textarea>
 
-                                    <label for="">Deskripsi</label>
+                                </div>
+                                <div class="form-group">
+
+                                    <label for="">Deskripsi (EN)</label>
                                     <textarea name="" placeholder="Alamat ..." class="ckeditor" id="" cols="30"
                                         class="form-control" rows="3"></textarea>
 
@@ -97,7 +104,7 @@
                                             <label class="recommendation" style="margin-top: 20px;">
                                                 Keterangan:<br>
                                                 <ul>
-                                                    <li>Rekomendasi Ukuran Image: 200x350 pixel</li>
+                                                    <li>Rekomendasi Ukuran Image: 300x300 pixel</li>
                                                     <li>Ukuran File Image Maksimal: 5 Mb</li>
                                                 </ul>
                                             </label>

@@ -20,7 +20,7 @@
                 <li>
                     Tambah Event
                 </li>
-               
+
             </ol>
             <div class="page-header">
                 <h1>Tambah Event</h1>
@@ -36,7 +36,7 @@
                 <div class="panel-heading">
                     <i class="fa fa-external-link-square"></i>Formulir Event
                     <div class="panel-tools">
-                        
+
                     </div>
                 </div>
                 <div class="panel-body">
@@ -64,7 +64,8 @@
                                                     Judul
                                                 </label>
                                                 <div class="col-sm-9">
-                                                    <input type="text" placeholder="Judul" id="form-field-1" class="form-control">
+                                                    <input type="text" placeholder="Judul" id="form-field-1"
+                                                        class="form-control">
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -72,7 +73,8 @@
                                                     Berita
                                                 </label>
                                                 <div class="col-sm-9">
-                                                    <textarea class="ckeditor form-control" cols="10" rows="10"></textarea>
+                                                    <textarea class="ckeditor form-control" cols="10"
+                                                        rows="10"></textarea>
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -80,7 +82,8 @@
                                                     Lokasi
                                                 </label>
                                                 <div class="col-sm-9">
-                                                    <input type="text" placeholder="Lokasi" id="form-field-1" class="form-control">
+                                                    <input type="text" placeholder="Lokasi" id="form-field-1"
+                                                        class="form-control">
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -88,39 +91,32 @@
                                                     Tanggal
                                                 </label>
                                                 <div class="col-sm-9">
+
+                                                    <div class="col-md-8">
+                                                        <label for="">Rentang Tanggal</label>
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"> <i
+                                                                    class="fa fa-calendar"></i> </span>
+                                                            <input type="text" class="form-control date-range">
+                                                        </div>
+                                                    </div>
                                                    
                                                     <div class="col-md-4">
-                                                        <label for="">Dari</label>
-                                                        <div class="input-group" id="picker-container">
-                                                            <input type="text" id="date-picker" data-date-format="dd-mm-yyyy"
-                                                            data-date-viewmode="years" class="form-control date-picker">
-                                                            <span class="input-group-addon"> <i class="fa fa-calendar"></i> </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <label for="">Sampai</label>
-
-                                                        <div class="input-group" id="picker-container">
-                                                            <input type="text" id="date-picker" data-date-format="dd-mm-yyyy"
-                                                            data-date-viewmode="years" class="form-control date-picker">
-                                                            <span class="input-group-addon"> <i class="fa fa-calendar"></i> </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                    <label for="">Jam</label>
+                                                        <label for="">Jam</label>
 
                                                         <div class="input-group input-append bootstrap-timepicker">
                                                             <input type="text" class="form-control time-picker">
-                                                            <span class="input-group-addon add-on"><i class="fa fa-clock-o"></i></span>
+                                                            <span class="input-group-addon add-on"><i
+                                                                    class="fa fa-clock-o"></i></span>
                                                         </div>
                                                     </div>
-                                                        
-                                                    
+
+
                                                 </div>
                                             </div>
-                                           
-                                            
-            
+
+
+
                                         </form>
                                         </p>
                                     </div>
@@ -132,7 +128,8 @@
                                                     Title
                                                 </label>
                                                 <div class="col-sm-9">
-                                                    <input type="text" placeholder="Title" id="form-field-1" class="form-control">
+                                                    <input type="text" placeholder="Title" id="form-field-1"
+                                                        class="form-control">
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -140,7 +137,8 @@
                                                     Description
                                                 </label>
                                                 <div class="col-sm-9">
-                                                    <textarea class="ckeditor form-control" cols="10" rows="10"></textarea>
+                                                    <textarea class="ckeditor form-control" cols="10"
+                                                        rows="10"></textarea>
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -148,7 +146,8 @@
                                                     Location
                                                 </label>
                                                 <div class="col-sm-9">
-                                                    <input type="text" placeholder="Location" id="form-field-1" class="form-control">
+                                                    <input type="text" placeholder="Location" id="form-field-1"
+                                                        class="form-control">
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -156,39 +155,30 @@
                                                     Date
                                                 </label>
                                                 <div class="col-sm-9">
-                                                   
-                                                    <div class="col-md-4">
-                                                        <label for="">From</label>
-                                                        <div class="input-group" id="picker-container">
-                                                            <input type="text" id="date-picker" data-date-format="dd-mm-yyyy"
-                                                            data-date-viewmode="years" class="form-control date-picker">
-                                                            <span class="input-group-addon"> <i class="fa fa-calendar"></i> </span>
+                                                    <div class="col-md-8">
+                                                        <label for="">Date Range</label>
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"> <i
+                                                                    class="fa fa-calendar"></i> </span>
+                                                            <input type="text" class="form-control date-range">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <label for="">To</label>
-
-                                                        <div class="input-group" id="picker-container">
-                                                            <input type="text" id="date-picker" data-date-format="dd-mm-yyyy"
-                                                            data-date-viewmode="years" class="form-control date-picker">
-                                                            <span class="input-group-addon"> <i class="fa fa-calendar"></i> </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                    <label for="">Time</label>
+                                                        <label for="">Time</label>
 
                                                         <div class="input-group input-append bootstrap-timepicker">
                                                             <input type="text" class="form-control time-picker">
-                                                            <span class="input-group-addon add-on"><i class="fa fa-clock-o"></i></span>
+                                                            <span class="input-group-addon add-on"><i
+                                                                    class="fa fa-clock-o"></i></span>
                                                         </div>
                                                     </div>
-                                                        
-                                                    
+
+
                                                 </div>
                                             </div>
-                                           
-                                            
-            
+
+
+
                                         </form>
                                         </p>
                                     </div>
@@ -208,7 +198,7 @@
                                     <label class="recommendation">
                                         Keterangan:<br>
                                         <ul>
-                                            <li>Rekomendasi Ukuran Image: 200x350 pixel</li>
+                                            <li>Rekomendasi Ukuran Image: 350x200 pixel</li>
                                             <li>Ukuran File Image Maksimal: 5 Mb</li>
                                         </ul>
                                     </label>
@@ -219,7 +209,7 @@
                     </div>
                     <div class="row pull-right">
                         <div class="col-md-12 space20 ">
-                        <a href="?menu=tambah_berita" class="btn btn-default add-row my-2">
+                            <a href="?menu=tambah_berita" class="btn btn-default add-row my-2">
                                 Batal <i class="fa fa-remove "></i>
                             </a>
                             <a href="?menu=tambah_berita" class="btn btn-primary add-row my-2">
@@ -228,12 +218,12 @@
                             <a href="?menu=tambah_berita" class="btn btn-success add-row my-2">
                                 Publikasi <i class="fa fa-bullhorn" aria-hidden="true"></i>
                             </a>
-                            
+
                         </div>
                     </div>
                 </div>
-                
-               
+
+
             </div>
         </div>
     </div>

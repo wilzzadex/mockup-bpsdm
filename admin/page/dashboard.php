@@ -36,7 +36,7 @@
                     </div>
                     <div class="col-md-8">
                         <p class="card-title">5</p>
-                        <p class="card-status">Berita</p>
+                        <p class="card-status">Jumlah Publikasi</p>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="col-md-8">
                         <p class="card-title">3</p>
-                        <p class="card-status">Draft</p>
+                        <p class="card-status">Jumlah Draft</p>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-md-8">
                         <p class="card-title">2</p>
-                        <p class="card-status">Publish</p>
+                        <p class="card-status">Jumlah Publish</p>
                     </div>
                 </div>
             </div>

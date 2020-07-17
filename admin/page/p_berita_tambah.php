@@ -169,9 +169,12 @@
                               
                            
                        </div>
-                       <div class="form-group" id="elemen">
-                           <input type="text" placeholder="Url Youtube" id="form-field-1" class="form-control">
-                       </div>
+                            <div class="form-group" id="elemen">
+                                <input type="text" placeholder="Url Youtube" id="form-field-1" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-sm-4" id="recomend">
+                            
                         </div>
 
                     </div>

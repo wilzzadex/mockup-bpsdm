@@ -627,7 +627,10 @@
                    }else{
                     // console.log(type)
                         $('#elemen').empty()
-                        $('#elemen').append(` <input type="file"  id="form-field-1" class="form-control">`)
+                        $('#elemen').append(`
+                          <label class="btn btn-raised btn-default btn-sm" style="color: white; width: 180px; background:grey; height: 30px;"> <i class="fa fa-picture-o"></i> Pilih Gambar<input type="file" name="file[]" accept="image/*" style="opacity: 0;" onchange="hasilgmbr(this)" required></label>  
+                            <span class="label-gmbr" style="margin-left: 2%;"> Belum Ada Gambar</span>
+                                              `)
                         $('#recomend').append(`
                             
                                 <label class="recommendation">
@@ -716,6 +719,14 @@
                 allowedFileExtensions: ["jpg", "png", "gif"]
            
             });
+
+            $(".date-range").daterangepicker(), $(".date-time-range").daterangepicker({
+                timePicker: !0,
+                timePickerIncrement: 30,
+                locale: {
+                    format: "MM/DD/YYYY h:mm A"
+                }
+            })
             CKEDITOR.disableAutoInline = !0, $("textarea.ckeditor").ckeditor()
 
         })

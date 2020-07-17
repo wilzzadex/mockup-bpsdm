@@ -68,18 +68,18 @@
                                         class="form-control">
 
                                 </div>
-                                <div class="form-group">
+                                <!-- <div class="form-group">
 
                                     <label for="">Role</label>
                                     <select name="" class="form-control" id="">
                                         <option value="">-- Pilih Role --</option>
                                         <option value="">Admin</option>
-                                        <!-- <option value="">Laut</option>
-                                        <option value="">Udara</option> -->
+                                        <option value="">Laut</option>
+                                        <option value="">Udara</option>
                                     </select>
 
 
-                                </div>
+                                </div> -->
                             </form>
 
                         </div>
