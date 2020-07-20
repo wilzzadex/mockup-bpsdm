@@ -47,24 +47,18 @@
             <div class="tab-pane active" id="panel_tab3_example1">
                <div class="form-group">
                    <div class="form-group">
-                       <label for="">Tugas</label>
+                       <label for="">Deskripsi</label>
                        <textarea name="" class="ckeditor form-control" id="" cols="30" rows="10"></textarea>
                    </div>
-                   <div class="form-group">
-                       <label for="">Fungsi</label>
-                       <textarea name="" class="ckeditor form-control" id="" cols="30" rows="10"></textarea>
-                   </div>
+                   
                </div>
             </div>
             <div class="tab-pane" id="panel_tab3_example2">
             <div class="form-group">
-                       <label for="">Job</label>
+                       <label for="">Description</label>
                        <textarea name="" class="ckeditor form-control" id="" cols="30" rows="10"></textarea>
                    </div>
-                   <div class="form-group">
-                       <label for="">Fungsi</label>
-                       <textarea name="" class="ckeditor form-control" id="" cols="30" rows="10"></textarea>
-                   </div>
+                  
             </div>
         </div>
     </div>

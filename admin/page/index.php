@@ -211,6 +211,10 @@
                         include 'struktur_edit.php';
                     }elseif($menu == 'edit_satuan'){
                         include 'edit_satuan.php';
+                    }elseif($menu == 'h_popup'){
+                        include 'h_popup.php';
+                    }elseif($menu == 'tambah_popup'){
+                        include 'tambah_popup.php';
                     }else{
                         // include 'login.php';
                     }

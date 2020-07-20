@@ -74,13 +74,9 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-
                                                 <div class="col-sm-12">
-
+                                                    <label for="">Tanggal</label>
                                                     <div class="input-group" id="picker-container">
-                                                        <label class="control-label" for="form-field-1">
-                                                            Tanggal
-                                                        </label>
                                                         <input type="text" id="date-picker"
                                                             data-date-format="dd-mm-yyyy" data-date-viewmode="years"
                                                             class="form-control date-picker">
@@ -110,13 +106,9 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-
                                                 <div class="col-sm-12">
-
+                                                    <label for="">Date</label>
                                                     <div class="input-group" id="picker-container">
-                                                        <label class="control-label" for="form-field-1">
-                                                            Date
-                                                        </label>
                                                         <input type="text" id="date-picker"
                                                             data-date-format="dd-mm-yyyy" data-date-viewmode="years"
                                                             class="form-control date-picker">

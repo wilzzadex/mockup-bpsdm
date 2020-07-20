@@ -1454,6 +1454,8 @@
 	<script src="js/plugins.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 	<script src="tavocal/tavo-calendar.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
 
 
 
@@ -1471,6 +1473,10 @@
 					$(".bs-example-modal-lg2").modal('hide');
 				},  5000);
 			});
+
+
+
+			$('.lazy').lazy();
 			
 
 
