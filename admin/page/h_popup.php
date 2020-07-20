@@ -40,6 +40,7 @@
                         <th width="10px">No</th>
                         <th style="min-width:200px">Nama File</th>
                         <th style="min-width:100px">File</th>
+                        <th>Status Aktif</th>
                         <th style="min-width:150px">Aksi</th>
                     </tr>
                 </thead>
@@ -48,6 +49,9 @@
                        <td>1.</td>
                        <td>Kode Billing untuk Pembayaran Tes CAT BKN SIPENCATAR 2020</td>
                        <td><a href="../../front/gambar/pu-min.PNG" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-image"></i> Lihat Gambar</a></td>
+                       <td>
+                       <input data-size="normal" class="switch-input" data-on-color="success" data-off-color="danger" data-on-text="<i class='fa fa-check'></i>" data-off-text="<i class='fa fa-remove'></i>" data-label="fa fa-user" onchange="tesChange()" type="checkbox">
+                       </td>
                        <td>
                         <button class="btn btn-xs btn-primary"><i class="fa fa-edit"></i></button>
                         <button class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></button>
@@ -58,6 +62,10 @@
                        <td>Kode Billing untuk Pembayaran Tes CAT BKN SIPENCATAR 2020</td>
                        <td><a href="../../front/gambar/pu-min.PNG" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-image"></i> Lihat Gambar</a></td>
                        <td>
+                       <input data-size="normal" class="switch-input" data-on-color="success" data-off-color="danger" data-on-text="<i class='fa fa-check'></i>" data-off-text="<i class='fa fa-remove'></i>" data-label="fa fa-user" onchange="tesChange()" type="checkbox">
+
+                       </td>
+                       <td>
                         <button class="btn btn-xs btn-primary"><i class="fa fa-edit"></i></button>
                         <button class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></button>
                        </td>
@@ -66,6 +74,7 @@
                        <td>3.</td>
                        <td>Kode Billing untuk Pembayaran Tes CAT BKN SIPENCATAR 2020</td>
                        <td><a href="../../front/gambar/pu-min.PNG" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-image"></i> Lihat Gambar</a></td>
+                       <td><input data-size="normal" class="switch-input" data-on-color="success" data-off-color="danger" data-on-text="<i class='fa fa-check'></i>" data-off-text="<i class='fa fa-remove'></i>" data-label="fa fa-user" onchange="tesChange()" type="checkbox"></td>
                        <td>
                         <button class="btn btn-xs btn-primary"><i class="fa fa-edit"></i></button>
                         <button class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></button>

@@ -20,7 +20,7 @@
                 <li>
                     Tambah Popup
                 </li>
-              
+
             </ol>
             <div class="page-header">
                 <h1>Tambah Popup</h1>
@@ -36,52 +36,20 @@
                 <div class="panel-heading">
                     <i class="fa fa-external-link-square"></i>
                     <div class="panel-tools">
-                       
+
                     </div>
                 </div>
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="tabbable">
-                                <ul id="myTab4" class="nav nav-tabs tab-padding tab-space-3 tab-blue">
-                                    <li class="active">
-                                        <a href="#panel_tab3_example1" data-toggle="tab" aria-expanded="true">
-                                            Bahasa Indonesia (Default)
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a href="#panel_tab3_example2" data-toggle="tab" aria-expanded="false">
-                                            English
-                                        </a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content">
-                                    <div class="tab-pane active" id="panel_tab3_example1">
-                                        <p>
-                                        <form role="form" class="form-horizontal">
-                                            <div class="form-group">
-                                                <div class="col-sm-12">
-                                                    <label for="">Nama File</label>
-                                                    <input type="text" placeholder="Nama File ..." class="form-control">
-                                                </div>
-                                            </div>
-                                        </form>
-                                        </p>
-                                    </div>
-                                    <div class="tab-pane" id="panel_tab3_example2">
-                                    <p>
-                                        <form role="form" class="form-horizontal">
-                                            <div class="form-group">
-                                                <div class="col-sm-12">
-                                                    <label for="">File Name</label>
-                                                    <input type="text" placeholder="File Name" class="form-control">
-                                                </div>
-                                            </div>
-                                        </form>
-                                        </p>
-                                    </div>
-                                </div>
+
+                            <div class="form-group">
+                                
+                                    <label for="">Nama File</label>
+                                    <input type="text" placeholder="Nama File ..." class="form-control">
+                                
                             </div>
+
                             <br>
                             <div class="form-group">
                                 <div class="col-sm-3">
@@ -90,7 +58,7 @@
                                     <div class="kv-avatar ">
                                         <input id="mediaInfo" name="avatar" type="file" class="file-loading">
                                     </div>
-                                    
+
                                 </div>
                                 <div class="col-sm-4">
                                     <label class="recommendation">
@@ -98,21 +66,22 @@
                                         <ul>
                                             <li>Rekomendasi Ukuran Gambar: 200x350 pixel</li>
                                             <li>Ukuran File Image Maksimal: 5 Mb</li>
+                                            <li>Format Gambar : jpg,jpeg,png</li>
                                         </ul>
                                     </label>
                                 </div>
-                                
+
                             </div>
-                            
+
                             <div class="form-group">
                                 <div class="col-sm-9">
                                     <!-- <label for="">Gambar</label> -->
-                                   
-                                    
+
+
                                 </div>
-                               
+
                             </div>
-                            
+
                         </div>
                     </div>
                     <br>
@@ -127,12 +96,12 @@
                             <a href="?menu=h_popup" class="btn btn-success add-row">
                                 Simpan <i class="fa fa-save" aria-hidden="true"></i>
                             </a>
-                           
+
                         </div>
                     </div>
                 </div>
-                
-               
+
+
             </div>
         </div>
     </div>

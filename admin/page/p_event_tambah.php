@@ -200,6 +200,7 @@
                                         <ul>
                                             <li>Rekomendasi Ukuran Image: 350x200 pixel</li>
                                             <li>Ukuran File Image Maksimal: 5 Mb</li>
+                                            <li>Format Gambar : jpg,jpeg,png</li>
                                         </ul>
                                     </label>
                                 </div>

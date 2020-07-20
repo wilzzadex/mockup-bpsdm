@@ -42,6 +42,8 @@
     <link href="bower_components/jquery.tagsinput/dist/jquery.tagsinput.min.css" rel="stylesheet" />
     <link href="bower_components/summernote/dist/summernote.css" rel="stylesheet" />
     <link href="bower_components/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css" rel="stylesheet" />
+
 
 
     <!-- end: MAIN CSS -->
@@ -324,8 +326,10 @@
     <script src="bower_components/ckeditor/adapters/jquery.js"></script>
     <script src="bower_components/bootstrap-fileinput/js/plugins/canvas-to-blob.min.js"></script>
     <script src="bower_components/bootstrap-fileinput/js/fileinput.min.js"></script>
+    <script src="bower_components/bootstrap-switch/dist/js/bootstrap-switch.min.js"></script>
     <script src="assets/js/min/form-elements.min.js"></script>
 
+    
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 
@@ -368,6 +372,25 @@
                 $('#misi_'+id).remove()
             // }
 
+        }
+
+        function tesChange(){
+            swal({
+                title: "Ubah Status Aktif",
+                text: "Apakah anda yakin akan mengubah status aktif ?",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+            .then((willDelete) => {
+                if (willDelete) {
+                        swal("Status Berhasil Di Ubah !", {
+                        icon: "success",
+                    });
+                } else {
+                    swal("Status Batal di ubah !");
+                }
+            });
         }
 
         function removeGambar(id){
@@ -544,15 +567,13 @@
                    </table>`;
         }
 
-        // function addDarat(){
-        //     var tes = $(this).attr('class')
-        //     console.log(tes)
-        // }
-
+      
         $(document).ready(function(){
 
+             $("input[type=checkbox]").bootstrapSwitch();
+
             
-            
+                        
             var table = $('#example').removeAttr('width').DataTable({
                
             })
@@ -640,8 +661,9 @@
                                 <label class="recommendation">
                                     Keterangan:<br>
                                     <ul>
-                                        <li>Rekomendasi Ukuran Image: 350x200 pixel</li>
+                                        <li>Rekomendasi Ukuran Gambar: 350x200 pixel</li>
                                         <li>Ukuran File Image Maksimal: 5 Mb</li>
+                                        <li>Format Gambar : jpg,jpeg,png</li>
                                     </ul>
                                 </label>
                             

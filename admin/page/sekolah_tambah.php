@@ -104,8 +104,9 @@
                                             <label class="recommendation" style="margin-top: 20px;">
                                                 Keterangan:<br>
                                                 <ul>
-                                                    <li>Rekomendasi Ukuran Image: 300x300 pixel</li>
+                                                    <li>Rekomendasi Ukuran Logo: 300x300 pixel</li>
                                                     <li>Ukuran File Image Maksimal: 5 Mb</li>
+                                                    <li>Format Gambar : jpg,jpeg,png</li>
                                                 </ul>
                                             </label>
                                             
@@ -158,7 +159,14 @@
                                 </table>
                                 <button class="btn btn-primary btn-sm" onclick="addGambar()">Tambah Gambar</button>
                             </div>
-
+                            <label class="recommendation" style="margin-top: 20px;">
+                                                Keterangan:<br>
+                                                <ul>
+                                                    <li>Rekomendasi Ukuran Gambar: 200x350 pixel</li>
+                                                    <li>Ukuran File Image Maksimal: 5 Mb</li>
+                                                    <li>Format Gambar : jpg,jpeg,png</li>
+                                                </ul>
+                                            </label>
                         </div>
                     </div>
                     <br>

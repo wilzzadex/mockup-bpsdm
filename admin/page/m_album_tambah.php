@@ -126,8 +126,9 @@
                             <label class="recommendation" style="margin-top: 20px;">
                                 Keterangan:<br>
                                 <ul>
-                                    <li>Rekomendasi Ukuran Image: 200x350 pixel</li>
+                                    <li>Rekomendasi Ukuran Gambar: 200x350 pixel</li>
                                     <li>Ukuran File Image Maksimal: 5 Mb</li>
+                                    <li>Format Gambar : jpg,jpeg,png</li>
                                 </ul>
                             </label> <br>
                             <br>
