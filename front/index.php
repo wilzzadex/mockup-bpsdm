@@ -332,27 +332,27 @@
 												</a>
 												<ul>
 													
-													<li><a href="profile_struktur_organisasi.php">
+													<li><a href="detail_satuan.php">
 														<div>PDTI-STTD-BEKASI</div>
 														</a>
 													</li>
-													<li><a href="profile_struktur_organisasi.php">
+													<li><a href="detail_satuan.php">
 														<div>POLTEKTRANS SDP PALEMBANG</div>
 														</a>
 													</li>
-													<li><a href="profile_struktur_organisasi.php">
+													<li><a href="detail_satuan.php">
 														<div>PKTJ - TEGAL</div>
 														</a>
 													</li>
-													<li><a href="profile_struktur_organisasi.php">
+													<li><a href="detail_satuan.php">
 														<div>POLTRADA - BALI</div>
 														</a>
 													</li>
-													<li><a href="profile_struktur_organisasi.php">
+													<li><a href="detail_satuan.php">
 														<div>PPI - MADIUN</div>
 														</a>
 													</li>
-													<li><a href="profile_struktur_organisasi.php">
+													<li><a href="detail_satuan.php">
 														<div>BPPTD - MEMPAWAH</div>
 														</a>
 													</li>
