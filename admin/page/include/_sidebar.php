@@ -48,6 +48,16 @@
                         <span class="title"> Master Popup </span>
                     </a>
                 </li>
+                <li>
+                    <a href="?menu=h_regulasi">
+                        <span class="title"> Regulasi & Kebijakan </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="?menu=h_kerja">
+                        <span class="title"> Kerja Sama </span>
+                    </a>
+                </li>
                
             </ul>
         </li>
@@ -179,6 +189,13 @@
                     </a>
                 </li> -->
             </ul>
+        </li>
+        <li>
+            <!--active open-->
+            <a href="?menu=log">
+                <i class="fa fa-history"></i>
+                <span class="title"> Log </span><span class="selected"></span>
+            </a>
         </li>
     </ul>
     <!-- end: MAIN NAVIGATION MENU -->

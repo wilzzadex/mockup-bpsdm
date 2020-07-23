@@ -217,6 +217,16 @@
                         include 'h_popup.php';
                     }elseif($menu == 'tambah_popup'){
                         include 'tambah_popup.php';
+                    }elseif($menu == 'h_regulasi'){
+                        include 'h_regulasi.php';
+                    }elseif($menu == 'h_kerja'){
+                        include 'h_kerja.php';
+                    }elseif($menu == 'tambah_kerja'){
+                        include 'tambah_kerja.php';
+                    }elseif($menu == 'tambah_regulasi'){
+                        include 'tambah_regulasi.php';
+                    }elseif($menu == 'log'){
+                        include 'log.php';
                     }else{
                         // include 'login.php';
                     }

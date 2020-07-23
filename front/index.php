@@ -600,7 +600,7 @@
 			<div class="row sicon">
 				<div class="col-md-3 text-center">
 					<a href="regulasi.php"><img src="icon/file.png" style="width: 40px; padding-top: 30px;" alt=""></a>
-					<p>Regulasi</p>
+					<p>Regulasi & Kebijakan</p>
 				</div>
 				<div class="col-md-3 text-center">
 				<a href="kerja_sama.php"><img src="icon/clip.png" style="width: 40px; padding-top: 30px;" alt=""></a>

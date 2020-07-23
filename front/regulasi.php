@@ -2,11 +2,11 @@
 <section id="page-title">
 
 <div class="container clearfix">
-    <h1>Regulasi</h1>
+    <h1>Regulasi & Kebijakan</h1>
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Home</a></li>
         <!-- <li class="breadcrumb-item"><a href="#">Regulasi</a></li> -->
-        <li class="breadcrumb-item active" aria-current="page">Regulasi</li>
+        <li class="breadcrumb-item active" aria-current="page">Regulasi & Kebijakan</li>
     </ol>
 </div>
 

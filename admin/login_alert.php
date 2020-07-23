@@ -30,6 +30,7 @@
     <link type="text/css" rel="stylesheet" media="print" href="page/assets/css/print.min.css" />
     <link type="text/css" rel="stylesheet" id="skin_color" href="page/assets/css/theme/light.min.css" />
     <script src='https://www.google.com/recaptcha/api.js'></script>
+
     <!-- end: MAIN CSS -->
     <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
     <!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
@@ -47,8 +48,8 @@
         <div class="box-login">
           
             <form class="form-login" action="page/">
-                <div class="errorHandler alert alert-danger no-display">
-                    <i class="fa fa-remove-sign"></i> You have some form errors. Please check below.
+                <div class="errorHandler alert alert-danger">
+                    <i class="fa fa-remove-sign"></i> Anda telah gagal login 10x, Silahkan hubungi super admin !
                 </div>
                 <fieldset>
                     <div class="form-group">
@@ -67,7 +68,9 @@
                         </span>
                     </div>
                     <div class="form-group form-actions">
+                    <div class="form-group form-actions">
                         <center><div class="g-recaptcha" data-sitekey="6LeeAbUZAAAAAJiOhS5UxBoVk84FPGTxwbHvoglO"></div></center>
+                    </div>
                     </div>
                     <div class="form-actions">
                        
